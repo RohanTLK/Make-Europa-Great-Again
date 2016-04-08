@@ -1,0 +1,13 @@
+#####################################
+#      List of planned changes      #
+#####################################
+Included below are all the planned changes for the mod. Do not add to this list without consulting 
+the whole team. The point of this list is for us to keep up to date on what has been implemented 
+already and what needs fixing or testing. 
+
+Place a double "@@" infront of the items that have been implemented already, but NOT TESTED.
+Place a double "~~" infront of the items that have been implemented and HAVE BEEN TESTED. 
+Place a double "!!" infront of the items that need reevaluating or fixing, leave a hash comment.
+Leave everything else as is.
+
+1) 

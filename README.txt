@@ -39,6 +39,6 @@ as we like to watch how campaigns progress to judge any potential balance issues
 #####################################
 #            Authors                #
 #####################################
-Phantastic
-Comrade
-Clonefusion
+Phantastic - The Project Manager AKA guy who can't mod
+Comrade - The Grunt AKA guy who does most of the work
+Clonefusion - The Brains AKA guy who tells us what to change

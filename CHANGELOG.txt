@@ -1,0 +1,54 @@
+############################
+#         V0.1.1           #
+#     Changelog Index      #
+############################
+
+1) Policies
+2) Ideas
+
+############################
+#       1) Policies        #
+############################
+
+#Administrative Policies:#
+
+Administrative + Defensive policy changed to -3 Unrest & Spy Defense +30%
+Diplomatic + Administrative policy changed to -20% Mercenary Maintanence
+Economic + Defensive policy changed to -10% Artillery Cost & -10% Fort Maintanence Cost
+Economic + Offensive policy changed to Admin group & -10% Land Maint & -10% Naval Maint
+Economic + Quality policy changed to Global Ship Cost -15% and Global Regiment Cost -20%
+Expansion + Offensive policy changed to Spy offense +10% & Core Creation Cost -25%
+Espionage + Quality Policy added +2.5% Discipline
+
+#Diplomatic Policies:#
+
+Expansion + Maritime policy changed down to +15% Naval FL
+Diplomatic + Innovative policy changed up to -25% Advisor Cost & +2 Dip Reputation
+
+#Military Policies:#
+
+Aristocracy + Administrative policy changed to 20% production effeciency
+Quality + Religious policy changed to Morale Recovery Speed +10%
+Quantity + Religious policy changed to Manpower Recovery Speed +20% 
+Offensive + Trade policy added +5% discipline (merchants can be very good at banter)
+
+
+
+############################
+#        2) Ideas          #
+############################
+
+#Basic Ideas:#
+
+Innovative Idea: Changed Bonus to Prod Efficiency +10%, Changed 2nd to -25% Merc Cost, Changed 4th to Arty Power +10%, Changed 5th to Inflation Reduction Cost -20%, Changed 7th to Idea Cost -15%
+Religious Idea: Changed 7th to Tax Modifier +15%
+Administrative Idea: Changed 3rd to Loot +25%, Changed 4th to Build Cost -20%, Changed 6th to Develop Cost -20%
+Humanist Idea: Changed Bonus to Prod Efficiency +20%, Changed 3rd to AE Impact -30%, Changed 6th to Global Trade Goods Mod +15%, Changed 7th to Land Leader Fire +1
+Diplomatic Idea: Buffed most of the vanilla track. 
+Exploration Idea: Swapped 1st and 2nd track around so QFTNW is 1st, Changed 7th to Trade Steering +20% & Global Trade Power +10%
+Maritime Idea: Added +25% Available Mercs to 2nd.
+Influence Idea: Buffed a few tracks, Changed Bonus to Reduced Stab Impacts + Improve Relations Mod +33%, Added a discipline +5% bonus
+Aristocratic Idea: Removed Core Creation Cost and replaced with Global Autonomy Decrease -0.05, Changed 5th to Land Leader Shock +1
+Offensive Idea: Buffed slightly and replaced Leader Shock with Leader Siege
+Defensive Idea: Nerfed Morale down to +10%
+Quantity Idea: Nerfed Forcelimit and Manpower bonuses down to +30% each, Removed additional Mercenary track and replaced with +1 Free Leaders

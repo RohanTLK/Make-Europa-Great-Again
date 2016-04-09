@@ -39,6 +39,8 @@ as we like to watch how campaigns progress to judge any potential balance issues
 #####################################
 #            Authors                #
 #####################################
-Phantastic - The Project Manager AKA guy who can't mod
-Comrade - The Grunt AKA guy who does most of the work
-Clonefusion - The Brains AKA guy who tells us what to change
+Phant - Manager and terrible modder 
+DragonKnight - Modder whom knows what he's doing
+Comrade - Grunt & balance coordinator 
+Clonefusion - The brains 
+Kneehi - Balance coordinator

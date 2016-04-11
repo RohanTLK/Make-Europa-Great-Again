@@ -145,7 +145,7 @@ anti_smuggling_act = {
 	}
 	
 	embargo_efficiency = 0.25
-	discipline = 0.05
+	discipline = 0.025
 
 	ai_will_do = {
 		factor = 1
@@ -172,7 +172,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.2
+	naval_morale = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -488,7 +488,7 @@ pen_rely_on_sword_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	diplomatic_reputation = 1
+	global_regiment_cost = -0.1
 	land_forcelimit_modifier = 0.1
 
 	
@@ -513,8 +513,7 @@ diplomatic_defence_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	enemy_core_creation = 0.25
-	diplomatic_upkeep = 1
+	build_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -566,8 +565,7 @@ underhanded_diplomacy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	spy_offence = 0.1
-	diplomatic_reputation = 1
+	loot_amount = 0.2
 
 	ai_will_do = {
 		factor = 1

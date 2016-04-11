@@ -146,7 +146,7 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.30
 	}
 
 	deus_vult = {
@@ -172,7 +172,8 @@ religious_ideas = {
 		prestige = 1
 	}
 	inquisition = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.10
+		global_unrest = -1
 	}
 
 	ai_will_do = {
@@ -231,33 +232,30 @@ spy_ideas = {
 diplomatic_ideas = {
 	category = DIP
 	bonus = {
-		stability_cost_modifier = -0.33
+		global_prov_trade_power_modifier = 0.10	
 	}
-
-	foreign_embassies = {
-		diplomats = 2
+	organised_construction = {
+		build_cost = -0.15
 	}
-	cabinet = {
-		diplomatic_upkeep = 2
+	german_efficiency = {
+		global_regiment_cost = -0.1
 	}
 	war_cabinet = {
 		war_exhaustion_cost = -0.33
 	}
-	benign_diplomats = {
-		global_tax_modifier = 0.10
-		legitimacy = 1
-		devotion = 1
-		horde_unity = 1
+	internal_development = {
+		development_cost = -0.2
 	}
-	experienced_diplomats  = {
-		diplomatic_reputation = 3
+	factories = {
+		global_trade_goods_size_modifier = 0.15
 	}
-	flexible_negotiation = {
-		province_warscore_cost = -0.25
+	smithian_economics = {
+		production_efficiency = 0.15
 	}
 	diplomatic_corps = {
 		dip_tech_cost_modifier = -0.15
 	}
+	
 
 	ai_will_do = {
 		factor = 0.67
@@ -297,7 +295,7 @@ offensive_ideas = {
 		siege_ability = 0.20
 	}
 	grand_army = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.15
 	}
 	napoleonic_warfare = {
 		discipline = 0.05
@@ -351,15 +349,14 @@ trade_ideas = {
 	bonus = {
 		merchants = 1
 	}
-
-	shrewd_commerce_practise = {
- 		global_trade_power = 0.2
+	trade_manipulation = {
+		trade_steering = 0.33
   	}
   	free_trade = {
   		merchants = 1
   	}
-	merchant_adventures = {
-		trade_range_modifier = 0.25
+	fast_negotiations = {
+		caravan_power = 0.33
 	}
 	national_trade_policy = {
 		trade_efficiency = 0.1
@@ -367,11 +364,11 @@ trade_ideas = {
 	overseas_merchants = {
 		merchants = 1
 	}
-	trade_manipulation = {
-		trade_steering = 0.25
+	shrewd_commerce_practise = {
+ 		global_trade_power = 0.2
 	}
-	fast_negotiations = {
-		caravan_power = 0.25
+	merchant_adventures = {
+		trade_range_modifier = 0.25
 	}
 
 	ai_will_do = {
@@ -405,7 +402,7 @@ economic_ideas = {
 		global_tax_income = 20
 	}
 	national_bank = {
-		inflation_reduction = 0.1
+		inflation_reduction = 0.05
 	}
 	debt_and_loans = {
 		interest = -1
@@ -414,10 +411,10 @@ economic_ideas = {
 		global_autonomy = -0.05
 	}
 	nationalistic_enthusiasm = {
-		land_maintenance_modifier = -0.10
+		land_maintenance_modifier = -0.15
 	}
 	smithian_economics = {
-		production_efficiency = 0.1
+		naval_maintenance_modifier = -0.15
  	}
 
 	ai_will_do = {
@@ -597,12 +594,13 @@ maritime_ideas = {
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.5
+		possible_mercenaries = 0.50
 	}
 	sheltered_ports = {
 		global_ship_repair = 0.2
 	}
 	grand_navy = {
-		naval_forcelimit_modifier = 0.5
+		naval_forcelimit_modifier = 0.30
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
@@ -783,17 +781,20 @@ administrative_ideas = {
 	benefits_for_mercenaries = {
 		loot_amount = 0.25
 	}
-	bookkeeping = {
-		build_cost = -0.2
+	benign_diplomats = {
+		global_tax_modifier = 0.10
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
 	}
 	organised_mercenary_recruitment = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.33
 	}
-	administrative_efficiency_idea = {
-		development_cost = -0.2
+	prestigious_leader = {
+		prestige = 1
 	}
 	civil_servants = {
-		adm_tech_cost_modifier = -0.1
+		stability_cost_modifier = -0.25
 	}
 
 	ai_will_do = {
@@ -809,7 +810,8 @@ humanist_ideas = {
 	category = ADM
 
 	bonus = {
-		production_efficiency = 0.20
+		production_efficiency = 0.10
+		global_tax_modifier = 0.10
 	}
 
 	tolerance_idea = {
@@ -855,7 +857,7 @@ influence_ideas = {
 		vassal_income = 0.33
 	}
 	intimidation = {
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 3
 		discipline = 0.05
 	}
 	integrated_elites = {
@@ -865,11 +867,10 @@ influence_ideas = {
 		ae_impact = -0.2
 	}
 	diplomatic_influence = {
-		diplomatic_reputation = 2
+		diplomatic_reputation = 3
 	}
-	postal_service = {
-		envoy_travel_time = -0.25
-		diplomatic_upkeep = 1
+	flexible_negotiation = {
+		province_warscore_cost = -0.25
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
@@ -918,7 +919,7 @@ naval_ideas = {
 		heavy_ship_power = 0.20
 	}
 	superior_seamanship = {
-		naval_morale = 0.15
+		naval_morale = 0.1
 	}
 
 	ai_will_do = {

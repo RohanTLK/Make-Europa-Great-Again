@@ -1,0 +1,16 @@
+
+Army Management:
+
+The availability of mercenaries has been greatly reduced and bonuses to mercenary pool are generally only found with economic/trade or colonial focused nations (except Burgundy). 
+Furthermore, manpower is now more important than ever and managing manpower is a lot more tricky. 
+Therefore, it can be very useful to hire rich countries to use their mercenaries on the frontline in order to deplete enemy manpower reserves whilst saving your own.
+
+Economic Management:
+
+Armies and Navies are pretty expensive now, so you definitely need to plan out the economy of your country. You cannot focus only on military infrastructure/ideas.
+Trade should now be viable for more than just naval nations. Trade + Defensive gives you a really good policy that will help you secure trade to your home node. Trade buildings will also grant trade good modifier bonuses, but these cannot be built on overseas territory.
+
+NIs and Policies:
+
+You will want to have a look at the CHANGELOG.txt for a list of what's changed with the NIs and Policies. Combos like Religious, Quantity, Quality are no longer as strong.
+This means that you have a lot more freedom to put your country in the direction you want to take it, rather than being forced down a path. 

@@ -16,7 +16,7 @@ the_statute_of_monopolies = {
 		full_idea_group = economic_ideas
 	}
 
-	production_efficiency = 0.1
+	global_tax_modifier = 0.10
 	trade_efficiency = 0.1
 
 
@@ -382,7 +382,7 @@ diplomatic_cooperation_act = {
 
 
 	advisor_cost = -0.25
-	diplomatic_reputation = 2
+	dip_tech_cost_modifier = -0.05
 
 
 	ai_will_do = {
@@ -726,8 +726,7 @@ policy_of_neutrality = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	diplomatic_reputation = 1
-	improve_relation_modifier = 0.25
+	caravan_power = 0.25
 	
 
 	ai_will_do = {
@@ -752,8 +751,7 @@ professional_diplomatic_corps = {
 		full_idea_group = quality_ideas
 	}
 	
-	diplomatic_reputation = 1
-	envoy_travel_time = -0.25
+	discipline = 0.025
 
 	ai_will_do = {
 		factor = 1
@@ -952,8 +950,7 @@ multilingual_diplomats = {
 		full_idea_group = diplomatic_ideas
 	}	
 	
-	accepted_culture_threshold = -0.1
-	relations_decay_of_me = 0.2
+	accepted_culture_threshold = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1101,8 +1098,7 @@ overseas_embassies = {
 		full_idea_group = diplomatic_ideas
 	}	
 	
-	improve_relation_modifier = 0.2
-	envoy_travel_time = -0.25
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1

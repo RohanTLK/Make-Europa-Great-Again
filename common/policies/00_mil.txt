@@ -513,7 +513,7 @@ diplomatic_defence_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	build_cost = -0.1
+	build_cost = -0.15
 	
 	ai_will_do = {
 		factor = 1

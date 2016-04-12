@@ -53,4 +53,10 @@ The main goal here was to remove any +morale and +discipline policies from the u
 #       7) Buildings       #
 ############################
 
+Increased the cost of forts and the upkeep of forts. Forts now also provide a supply limit buff to the province they are built on. 
+Marketplace now costs 150 and gives Trade Value +30% to local province
+Trade Depot gives Trade Value +60%
+Courthouse now provides -0.02 autonomy and tax +1
+Stock Exchange gives Trade Value +50% and Trade Value +1
+Town Hall gives -5 unrest, -0.05 autonomy and tax +2
 

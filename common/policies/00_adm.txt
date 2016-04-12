@@ -801,7 +801,7 @@ risk_assessment_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	spy_offence = 0.1
+	army_tradition = 1
 	core_creation = -0.25
 	
 	ai_will_do = {

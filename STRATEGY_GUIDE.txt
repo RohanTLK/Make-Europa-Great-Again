@@ -5,6 +5,11 @@ The availability of mercenaries has been greatly reduced and bonuses to mercenar
 Furthermore, manpower is now more important than ever and managing manpower is a lot more tricky. 
 Therefore, it can be very useful to hire rich countries to use their mercenaries on the frontline in order to deplete enemy manpower reserves whilst saving your own.
 
+Warfare:
+
+Forts are sieged quicker now and are very expensive to build and maintain, however, they provide a huge bonus to supply limit in the given province. This makes forts highly strategically valuable.
+
+
 Economic Management:
 
 Armies and Navies are pretty expensive now, so you definitely need to plan out the economy of your country. You cannot focus only on military infrastructure/ideas.

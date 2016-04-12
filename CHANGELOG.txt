@@ -5,8 +5,8 @@
 
 1) Ideas
 2) Policies
-3) Military
-4) Economic
+3) Economic
+4) Military
 5) Combat
 6) Miscellaneous
 7) Buildings
@@ -17,13 +17,13 @@
 
 #Basic Ideas:#
 
-Re-do this changelog
+Re-do this section of the changelog
 
 #Country Ideas:#
 
 Halved morale and discipline bonuses across the board.
 Reduced infantry and cavalry power by about 1/3rd across the board.
-The purpose of this is to have slightly less of a gap between land committed nations and nations that don't go land. 
+The purpose of the above is to have slightly less of a gap between land committed nations and nations that don't go land. Prussia and Sweden are still OP, however.
 
 ############################
 #        2) Policies       #
@@ -31,10 +31,11 @@ The purpose of this is to have slightly less of a gap between land committed nat
 
 The main goal with policies was to have policies be a nice 'bonus' for after you've thought about your NIs, instead of picking your NIs to achieve specific policies. There should be no overpowered policies and you should not find yourself min-maxing NIs to get certain policies.
 There have been too many changes to mention them all, but a brief outline is given.
+Policies can be retracted after 5 years, instead of 10.
 
 #Administrative Policies:#
 
-The main goal here was to reduce the 'costs' of things, with the special exception of Espionage + Quality giving +2.5 discipline
+The main goal here was to reduce the 'costs' of things, with the special exception of Espionage + Quality giving +2.5% discipline
 
 #Diplomatic Policies:#
 
@@ -45,9 +46,56 @@ Also nerfed the influence NIs slightly so vassals don't become stronger than pla
 
 The main goal here was to remove any +morale and +discipline policies from the usual offenders (religious + whatever, economic + whatever)
 
+############################
+#        3) Economic       #
+############################
+
+Each tech in military now increases maint cost by 3% instead of 1%. 
+Wartaxes buffed to 33% maint decrease but only lasts 1 year.
+Bankruptcy reduces morale by 50% instead of 100%. 
+
+############################
+#       4) Military        #
+############################
+
+Cost of making units increased by about 50%
+Cost of making ships increased only slightly
+Mercenarie are capped at a flat 42, non are given from FL. Bonuses to Mercenary availability are still applied on top of this (i.e. from Administrative NI)
+Heavies are 10% more expensive to maintain. 
+Reinforcing costs a bit more.
+Army/Navy Tradition gives a max bonus of 10% Land/Navy Morale, down from 25% which was ridiculous. However, high army tradition gives a bigger bonus to manpower pool regen speed. 
+Prestige now gives max 5% Land/Navy Morale, down from 10%
+Power Projection gives max 5% Land/Navy Morale, down from 10%
+Base Supply Limits have been reduced but global manpower recovery speed has been increased, it will take about 4 years to fully replenish your manpower pool without any additional modifiers.
 
 
+############################
+#        5) Combat         #
+############################
 
+Reduced supply limits given from tech by about a third
+Reduced combat width given from tech by about a third
+No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
+The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This makes morale cycling easier.
+Slightly reduced RNG in battles by reducing the dice rolls to 0-6
+Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
+Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
+Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)
+
+############################
+#      6) Miscellaneous    #
+############################
+
+Added a decision for any western country WITHOUT exclusively the Exploration NI for +1 Colonist when at Diplo tech 11
+Added a decision for countries with Exploration or Expansion NI that gives global colonial growth +35
+CNs will auto-form after 15 provinces in a trade region now. 
+You will get bad overextension events at 70% OE now. 
+Crusades and Excommunications can happen more frequently. 
+Advisors are slightly more expensive with each passing year.
+You can now hold a massive 14 provinces in a colonial region before it will turn into a CN. 
+Revanchism decays a bit quicker.
+Base papal influence gain increased by 1.
+You lose 1 stability for changing an Aspect of Faith under Protestantism
 
 ############################
 #       7) Buildings       #

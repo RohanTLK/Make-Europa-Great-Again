@@ -218,7 +218,7 @@ march_bonus = {
 	naval_forcelimit_modifier = 0.30
 	defensiveness = 0.2
 	fort_maintenance_modifier = -0.20
-	manpower_recovery_speed = 0.20
+	manpower_recovery_speed = 0.40
 }
 
 same_culture_group = {
@@ -267,11 +267,11 @@ looted = {
 }
 
 scorched_earth = {
-	trade_goods_size_modifier = -0.33
-	local_tax_modifier = -0.5				# 50% less tax income.
+	trade_goods_size_modifier = -0.75
+	local_tax_modifier = -0.75				# 75% less tax income.
 	local_defensiveness = 0.25
 	supply_limit_modifier = -0.5			# 50% lower supply limits.
-	local_autonomy = 0.01
+	local_autonomy = 0.02
 }
 
 
@@ -379,10 +379,11 @@ base_values = {
 	free_leader_pool = 1
 	republican_tradition = 0.01
 	monthly_fervor_increase = 1
-	vassal_income = 0.10
+	vassal_income = 0.15
 	horde_unity = -2
 	devotion = -0.5
 	max_states = 5
+	manpower_recovery_speed = 0.75
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -392,8 +393,8 @@ ai_nation = {
 }
 
 war_taxes = {
-	land_maintenance_modifier = -0.20
-	naval_maintenance_modifier = -0.20
+	land_maintenance_modifier = -0.33
+	naval_maintenance_modifier = -0.33
 	possible_mercenaries = 0.05
 }
 
@@ -449,13 +450,13 @@ inflation = {
 bankruptcy = {
 	global_unrest = 3					#revolt risk increased by 1 during bankruptcy effects.
 	interest = 10
-	land_morale = -1.0
-	naval_morale = -1.0
+	land_morale = -0.5
+	naval_morale = -0.5
 	reinforce_speed = -0.25					#Slower reinforce
 	bureaucrats_influence = 0.25
 	mr_guilds_influence = 0.25
-	manpower_recovery_speed = -1.0
-	sailors_recovery_speed = -1.0
+	manpower_recovery_speed = -0.5
+	sailors_recovery_speed = -0.5
 	advisor_cost = 1.0
 	monthly_fervor_increase = -2
 	global_colonial_growth = -200
@@ -484,7 +485,7 @@ war_exhaustion = {
 	core_creation = 0.03
 	temples_influence = -0.05
 	mr_aristocrats_influence = -0.05
-	manpower_recovery_speed = -0.01
+	manpower_recovery_speed = -0.02
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
 	global_trade_goods_size_modifier = -0.02
@@ -522,8 +523,8 @@ mercantilism = {
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
-	land_morale = 0.25
-	manpower_recovery_speed = 0.1
+	land_morale = 0.1
+	manpower_recovery_speed = 0.3
 	siege_ability = 0.05
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
@@ -531,13 +532,13 @@ army_tradition = {
 
 navy_tradition = {
 	recover_navy_morale_speed = 0.1
-	naval_morale = 0.25
+	naval_morale = 0.1
 	trade_steering = 1.0
 	privateer_efficiency = 0.25
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
-	sailors_recovery_speed = 0.1
+	sailors_recovery_speed = 0.5
 }
 
 positive_piety = {
@@ -615,7 +616,7 @@ legitimacy = {
 	tolerance_heathen = 2
 	tolerance_heretic = 2
 	diplomatic_reputation = 2
-	vassal_income = 0.1
+	vassal_income = 0.15
 }
 
 #Multiplied by current Horde Unity - 50
@@ -692,10 +693,10 @@ over_extension = {
 
 prestige = {
 	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
-	land_morale = 0.1
-	naval_morale = 0.1
+	land_morale = 0.05
+	naval_morale = 0.05
 	global_spy_defence = 0.1				#+10/-10 
-	mercenary_cost = -0.33					#-33 to +33%
+	mercenary_cost = -0.25					#-33 to +33%
 	legitimacy = 1.0
 	relations_decay_of_me = 0.5
 	improve_relation_modifier = 0.10
@@ -796,8 +797,8 @@ power_projection = {
 	defensiveness = 0.1
 	global_trade_power = 0.2
 	prestige = 0.5
-	land_morale = 0.1
-	naval_morale = 0.1
+	land_morale = 0.05
+	naval_morale = 0.05
 	legitimacy = 0.5
 	devotion = 0.5
 	horde_unity = 0.5

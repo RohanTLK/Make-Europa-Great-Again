@@ -9,7 +9,7 @@ temples =
 	
 	modifier = 
 	{
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 		unjustified_demands = -0.25
 		diplomatic_upkeep = -1
 	}

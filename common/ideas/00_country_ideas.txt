@@ -75,7 +75,7 @@ SWE_ideas = {
 		cavalry_cost = -0.1
 	}
 	indelningsverket = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.3
 	}
 	swedish_absolutism = {
 		stability_cost_modifier = -0.1
@@ -115,7 +115,7 @@ RUS_ideas = {
 	}
 	opprichnina = {
 		culture_conversion_cost = -0.2
-		manpower_recovery_speed = 0.10
+		manpower_recovery_speed = 0.15
 	}
 	abolish_the_mestnichestvo = {
 		production_efficiency = 0.1
@@ -240,7 +240,7 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	vornedskab = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	old_naval_traditions = {
 		navy_tradition = 1
@@ -326,7 +326,7 @@ TUR_ideas = {
 		accepted_culture_threshold = -0.15
 	}	
 	ghazi = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.30
 	}		
 	timariot_system = {
 		cavalry_power = 0.075
@@ -679,7 +679,7 @@ PER_ideas = {
 		production_efficiency = 0.05
 	}
 	promotion_of_irrigation = {
-		manpower_recovery_speed = 0.10
+		manpower_recovery_speed = 0.15
 	}
 	increased_crown_lands = {
 		global_tax_modifier = 0.10
@@ -908,7 +908,7 @@ MAM_ideas = {
 		prestige = 1
 	}
 	purchase_new_mamelukes = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	mam_army_reform = {
 		discipline = 0.025
@@ -1111,7 +1111,7 @@ HSA_ideas = {
 		justify_trade_conflict_cost = -0.1
 	}
 	hanseatic_levy_system = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.20
 	}
 	regularised_contribution = {
 		global_prov_trade_power_modifier = 0.20
@@ -1516,7 +1516,7 @@ MCH_ideas = {
 		cavalry_power = 0.1
 	}
 	the_green_standard_army = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.35
 	}
 	pigtail_or_death = {
 		global_unrest = -2
@@ -1776,7 +1776,7 @@ SAX_ideas = {
 
 LIT_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 		tolerance_heretic = 4
 	}
 	
@@ -1816,7 +1816,7 @@ LIT_ideas = {
 
 MAR_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 		global_manpower_modifier = 0.10
 	}
 	
@@ -1981,7 +1981,7 @@ PAP_ideas = {
 
 SER_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 		reinforce_speed = 0.15
 	}
 	
@@ -2202,7 +2202,7 @@ ASS_ideas = {
 		defensiveness = 0.1
 	}
 	reform_paik_system = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	process_of_appeal = {
 		stability_cost_modifier = -0.1
@@ -2497,7 +2497,7 @@ HED_ideas = {
 NPL_ideas = {
 	start = {
 		land_forcelimit_modifier = 0.25
-		manpower_recovery_speed = 0.1		
+		manpower_recovery_speed = 0.15		
 	}
 	
 	bonus = {
@@ -2552,7 +2552,7 @@ KNI_ideas = {
 		defensiveness = 0.25
 	}
 	assistance_to_the_suffering = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	the_tongues_of_knights = {
 		diplomatic_upkeep = 1
@@ -2726,7 +2726,7 @@ IRO_ideas = {
 		diplomats = 1
 	}
 	mourning_wars = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.30
 	}
 	warriors_unity = {
 		discipline = 0.025
@@ -3129,7 +3129,7 @@ GEO_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	sadrosho_districts = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.3
 	}
 	georgian_embassies = {
 		diplomatic_reputation = 1
@@ -3223,7 +3223,7 @@ WAL_ideas = {
 	}
 	
 	bonus = {
-		manpower_recovery_speed = 0.20
+		manpower_recovery_speed = 0.3
 	}
 	
 	trigger = {
@@ -3390,7 +3390,7 @@ AZT_ideas = {
 		legitimacy = 1
 	}
 	telpochcalli = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	eagles_and_jaguars = {
 		land_morale = 0.05
@@ -3597,7 +3597,7 @@ DNZ_ideas = {
 		light_ship_cost = -0.15
 	}
 	continued_independence = {
-		manpower_recovery_speed = 0.05
+		manpower_recovery_speed = 0.1
 		defensiveness = 0.15
 	}
 	lutheran_change = {
@@ -3707,7 +3707,7 @@ RYA_ideas = {
 		cavalry_cost = -0.1
 	}
 	rya_land_charters = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	rya_russian_grain = {
 		production_efficiency = 0.1	
@@ -3765,7 +3765,7 @@ TVE_ideas = {
 YAR_ideas = {
 	start = {
 		reinforce_speed = 0.15
-		manpower_recovery_speed = 0.1	
+		manpower_recovery_speed = 0.15	
 	}
 	
 	bonus = {
@@ -3936,7 +3936,7 @@ MOL_ideas = {
 		prestige = 1
 	}
 	razesi_peasants = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	upper_boyars = {
 		land_forcelimit_modifier = 0.25
@@ -4100,7 +4100,7 @@ TAR_ideas = {
 	}
 	
 	bonus = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	
 	trigger = {
@@ -4236,7 +4236,7 @@ RMN_ideas = {
 	free = yes # will be added at load
 
 	flexible_recruiting = {
-		manpower_recovery_speed = 0.2
+		manpower_recovery_speed = 0.30
 	}
 	skilled_commanders = {
 		leader_land_manuever = 1
@@ -4376,7 +4376,7 @@ FIN_ideas = {
 ALB_ideas = {
 	start = {
 		defensiveness = 0.2
-		manpower_recovery_speed = 0.10		
+		manpower_recovery_speed = 0.15
 	}
 	
 	bonus = {
@@ -4739,7 +4739,7 @@ TEU_ideas = {
 		infantry_cost = -0.1
 	}
 	teu_idea_2 = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	teu_idea_3 = {
 		infantry_power = 0.075
@@ -5334,7 +5334,7 @@ BAH_ideas = {
 	free = yes		#will be added at load.
 	
 	gharbians = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	legacy_of_gisu_daraz = {
 		religious_unity = 0.25
@@ -5555,7 +5555,7 @@ KHM_ideas = {
 ZAZ_ideas = {
 	start = {
 		loot_amount = 0.25
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	
 	bonus = {
@@ -5677,7 +5677,7 @@ MEX_ideas = {
 	}
 	
 	bonus = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.25
 	}
 	
 	trigger = {
@@ -6342,7 +6342,7 @@ CAT_ideas = {
 		fort_maintenance_modifier = -0.1
 	}
 	cat_miquelets = {
-        manpower_recovery_speed = 0.15
+        manpower_recovery_speed = 0.25
     }
 	cat_lliures_morts = {
         land_morale = 0.05
@@ -7031,7 +7031,7 @@ LUX_ideas = {
 		fort_maintenance_modifier = -0.15
 	}
 	lux_spanish_road = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	lux_grand_duchy_of_luxembourg = {
 		diplomatic_upkeep = 1
@@ -7124,7 +7124,7 @@ CYI_ideas = {
 	}
 
 	bonus = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	
 	trigger = {
@@ -7342,7 +7342,7 @@ NEV_ideas = {
 		defensiveness = 0.2
     }
 	nev_morvan_wet_nurses = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
     }
 	nev_greatest_palace_of_the_loire = {
 		prestige = 1
@@ -7738,7 +7738,7 @@ BTS_ideas = {
 MIR_ideas = {
 	start = {  
 		global_unrest = -1
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
   
 	bonus = {
@@ -7912,7 +7912,7 @@ LND_ideas = {
 		global_tax_modifier = 0.1
 	}
 	lnd_overnight_army = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 		global_regiment_recruit_speed = -0.05
 	}
 	lnd_warrior_migrations = {

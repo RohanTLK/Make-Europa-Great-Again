@@ -391,6 +391,7 @@ technology = {
 	military_tactics 	= 	0.25
 	supply_limit		=	0.3
 
+	fort_17th = yes
 	
 	enable = austrian_tercio   
 	enable = swedish_gustavian		
@@ -494,6 +495,7 @@ technology = {
 	year = 1715
 	
 	#Covered Way
+	fort_18th	= yes
 	military_tactics 	= 	0.25
 
 }

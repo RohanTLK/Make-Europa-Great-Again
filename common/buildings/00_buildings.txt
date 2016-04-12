@@ -239,7 +239,7 @@ courthouse = {
 	time = 12
 	modifier = {
 		local_unrest = -3
-		local_autonomy = 0.02
+		local_autonomy = -0.02
 		tax_income = 1
 	}
 	
@@ -606,7 +606,7 @@ stock_exchange = {
 	
 	modifier = {
 		province_trade_power_modifier = 1.25
-		trade_value_modifier = 0.5
+		trade_value_modifier = 0.3
 		trade_value = 1
 	}
 	
@@ -678,7 +678,7 @@ town_hall = {
 	
 	modifier = {
 		local_unrest = -5
-		local_autonomy = 0.05
+		local_autonomy = -0.05
 		tax_income = 2
 	}
 	

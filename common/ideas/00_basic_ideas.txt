@@ -858,7 +858,6 @@ influence_ideas = {
 		vassal_income = 0.33
 	}
 	intimidation = {
-		diplomatic_upkeep = 3
 		discipline = 0.05
 	}
 	integrated_elites = {

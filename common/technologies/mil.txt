@@ -71,7 +71,7 @@ technology = {
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
 	
-	combat_width = 1
+	combat_width = 5
 }
 
 # The 30 big techs from here on
@@ -155,6 +155,7 @@ technology = {
 	enable = japanese_samurai	
 	enable = shaybani	
 	
+	combat_width = 2
 }
 
 technology = {
@@ -199,7 +200,7 @@ technology = {
 	enable = asian_arquebusier	
 	enable = steppe_raiders
 	military_tactics 	= 	0.25
-	combat_width = 2
+	combat_width = 1	
 }
 
 technology = {
@@ -242,6 +243,7 @@ technology = {
 	
 	weapons = yes
 	
+	combat_width = 2
 }
 	
 technology = {
@@ -346,7 +348,7 @@ technology = {
 
 	training_fields = yes
 	
-	combat_width = 2
+	combat_width = 1
 	
 	enable = chambered_demi_cannon
 }
@@ -392,6 +394,7 @@ technology = {
 	supply_limit		=	0.3
 
 	fort_17th = yes
+
 	
 	enable = austrian_tercio   
 	enable = swedish_gustavian		
@@ -420,6 +423,7 @@ technology = {
 		
 	enable = swivel_cannon		
 
+	combat_width = 2
 }
 
 technology = {
@@ -486,8 +490,6 @@ technology = {
 	enable = chinese_dragoon	
 	enable = russian_petrine	
 	enable = steppe_cavalry
-	
-	combat_width = 2
 }
 
 technology = {
@@ -495,9 +497,10 @@ technology = {
 	year = 1715
 	
 	#Covered Way
-	fort_18th	= yes
+	fort_18th	= yes	
 	military_tactics 	= 	0.25
 
+	combat_width = 2
 }
 
 technology = {

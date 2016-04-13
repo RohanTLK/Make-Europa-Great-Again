@@ -128,7 +128,7 @@ rajput_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 	
 	trigger = {
@@ -388,7 +388,7 @@ theocracy_ideas = {
 	free = yes
 	
 	holy_order = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 	church_administration = {
 		stability_cost_modifier = -0.10
@@ -415,7 +415,7 @@ theocracy_ideas = {
 
 anatolian_beyliks_ideas = {
 	start = {
-		discipline = 0.05
+		discipline = 0.025
 		core_creation = -0.20
 	}
 	
@@ -479,7 +479,7 @@ daimyo_ideas = {
 	free = yes		#will be added at load.
 	
 	bushido = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 	bun_and_bu = {
 		idea_cost = -0.1
@@ -1013,7 +1013,7 @@ TIB_ideas = {
 		diplomatic_reputation = 1
 	}
 	way_of_ancients = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 	pale_earth = {
 		idea_cost = -0.1
@@ -1227,7 +1227,7 @@ ruthenian_ideas = {
 	}
 
 	bonus = {
-		discipline = 0.05
+		discipline = 0.025
 	}
  
 	trigger = {
@@ -1280,7 +1280,7 @@ pacific_northwest_ideas = {
 	free = yes		#will be added at load.
 	
 	great_whale_hunts = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 	
 	dugout_canoes = { 

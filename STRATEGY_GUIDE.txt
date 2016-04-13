@@ -1,3 +1,4 @@
+#NOT EVEN SLIGHTLY COMPLETED!!!!!!!!!!!!!!!!!!!
 
 Army Management:
 
@@ -7,7 +8,10 @@ Therefore, it can be very useful to hire rich countries to use their mercenaries
 
 Warfare:
 
-Forts are sieged quicker now and are very expensive to build and maintain, however, they provide a huge bonus to supply limit in the given province. This makes forts highly strategically valuable.
+Forts are very expensive to build and maintain, however, they provide a huge bonus to supply limit in the given province. This makes forts highly strategically valuable as you can station more troops on them without suffering attrition. 
+Manpower management is now more important because there is no cap to attrition, supply limits are lower and cannot sustain an army on mercs. You should ensure your stacks are not suffering loads of attrition and use terrain cautiously. 
+In addition to this, since manpower recovery speed is much higher, having a much larger manpower pool than an opponent means you are replenishing much more troops, therefore managing your manpower pool is a good way of countering this. 
+
 
 
 Economic Management:

@@ -96,11 +96,11 @@ arid = {
 }
 
 sea_zone = {
-	max_attrition = 5						#Maximum Attrition is 5
+	max_attrition = 10						#Maximum Attrition is 10
 }
 
 land_province = {
-	max_attrition = 5						#Maximum Attrition is 5
+	max_attrition = 20						#Maximum Attrition is 20
 	local_manpower_modifier = 0.25			#25% of manpower.
 }
 
@@ -270,7 +270,7 @@ scorched_earth = {
 	trade_goods_size_modifier = -0.75
 	local_tax_modifier = -0.75				# 75% less tax income.
 	local_defensiveness = 0.25
-	supply_limit_modifier = -0.5			# 50% lower supply limits.
+	supply_limit_modifier = -0.75			# 80% lower supply limits.
 	local_autonomy = 0.02
 }
 
@@ -376,10 +376,10 @@ base_values = {
 	global_manpower = 10.0
 	advisor_pool = 3
 	colonist_placement_chance = 0.05
-	free_leader_pool = 1
+	free_leader_pool = 2
 	republican_tradition = 0.01
 	monthly_fervor_increase = 1
-	vassal_income = 0.15
+	vassal_income = 0.25
 	horde_unity = -2
 	devotion = -0.5
 	max_states = 5
@@ -844,9 +844,11 @@ indep_nation = {
 }
 
 subject_nation = {
-	global_tax_income = 6
+	global_tax_income = 8
 	land_forcelimit	= 3
 	naval_forcelimit = 6
+	land_maintenance_modifier = -0.20
+	naval_forcelimit_modifier = -0.20
 }
 
 vassal_nation = {

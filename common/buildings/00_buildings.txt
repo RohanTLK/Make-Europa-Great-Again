@@ -183,11 +183,11 @@ shipyard = {
 }
 
 fort_15th = {
-	cost = 400
+	cost = 200
 	time = 30
 	modifier = {
 		fort_level = 2
-		supply_limit_modifier = 0.3
+		supply_limit_modifier = 0.5
 		local_unrest = -1
 	}
 	
@@ -316,12 +316,12 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 600
+	cost = 300
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
-		supply_limit_modifier = 0.5
+		supply_limit_modifier = 0.8
 		local_unrest = -2
 	}
 
@@ -552,6 +552,10 @@ fort_17th = {
 	
 	make_obsolete = fort_16th
 	
+	trigger = {
+		is_year = 1900
+	}
+	
 	modifier = {
 		fort_level = 6
 	}
@@ -774,6 +778,10 @@ fort_18th = {
 	
 	
 	make_obsolete = fort_17th
+	
+	trigger = {
+		is_year = 1900
+	}
 	
 	modifier = {
 		fort_level = 8

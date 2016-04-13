@@ -286,7 +286,7 @@ NCountry = {
 	
 	NOMAD_DEVELOPMENT_SCALE = 600,
 	NOMAD_FREE_REINFORCE = 1,					-- Do nomads get free reinforcement?
-	OVERSEAS_CLIENT_STATES = 0,					-- Allow overseas client states?
+	OVERSEAS_CLIENT_STATES = 1,					-- Allow overseas client states?
 
 	ESTATE_ANGRY_THRESHOLD = 40,				
 	ESTATE_HAPPY_THRESHOLD = 60,
@@ -447,7 +447,7 @@ NCountry = {
 	PS_SEIZE_COLONY = 25,
 	PS_BURN_COLONY = 5,
 	PS_ATTACK_NATIVES = 5,
-	PS_SCORCH_EARTH = 5,
+	PS_SCORCH_EARTH = 10,
 	PS_CHANGE_GOVERNMENT = 100,
 	PS_CHANGE_CULTURE = 10,
 	PS_CHANGE_CULTURE_OVERSEAS_RELIGION_MOD = -0.8,	-- Modifier how much cheaper it is to change culture in overseas province if same religion
@@ -579,7 +579,7 @@ NCountry = {
 	LARGE_VASSAL_LIMIT = 100,						-- Above what development is a vassal considered a large vassal
 	GREAT_POWER_VASSAL_LIMIT = 300, 				-- Above what development is a vassal considered a great power vassal
 	
-	MAX_CROWN_COLONIES = 14,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 11,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	PROTECTORATE_TECH_THRESHOLD = 0.5,				-- Difference in tech group cost modifiers
 	PROTECTORATE_LOWER_BOUND = 0.5,					-- Lower limit for protectorates
@@ -712,7 +712,7 @@ NEconomy = {
 	TRADE_COMPANY_CONTROL_LIMIT = 0.6,
 	TRADE_COMPANY_DAYS_TO_SWAP_LEADER = 30,
 	TRADE_COMPANY_STRONG_LIMIT = 0.51,
-	LARGE_COLONIAL_NATION_LIMIT = 10,
+	LARGE_COLONIAL_NATION_LIMIT = 12,
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.5,
 	MIN_ARMY_MAINTENANCE = 0.1,
 	MIN_NAVY_MAINTENANCE = 0.1,
@@ -777,7 +777,7 @@ NMilitary = {
 	INFANTRY_COST = 16.0, 							-- _MDEF_INFANTRY_COST = 10,		
 	CAVALRY_COST = 30.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 0.5,							-- base fort cost
+	FORTRESS_COST = 2.0,							-- base fort cost
 	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,		

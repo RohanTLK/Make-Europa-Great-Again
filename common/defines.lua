@@ -57,7 +57,7 @@ NDiplomacy = {
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	SPY_NETWORK_DISTANCE_EFFECT = 1,			-- Mutiplied by distance between capitals to get penalty
-	OVEREXTENSION_THRESHOLD = 0.70,				-- at which threshold you can get events
+	OVEREXTENSION_THRESHOLD = 0.90,				-- at which threshold you can get events
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,	
@@ -553,7 +553,7 @@ NCountry = {
 	HIGH_LIBERTY_DESIRE = 50, 						-- Limit for when a subject starts getting rebellious from liberty desire (also used for alert)
 	MONTHLY_LIBERTY_DECREASE = 0.1,					-- How much temporary liberty desire changes each month (towards 0 point)
 	LIBERTY_DESIRE_WAR_EXHAUSTION = 1,				-- Liberty desire from overlord's war exhaustion (per WE)
-	LIBERTY_DESIRE_RELATIVE_POWER = 75,				-- Liberty desire from relative power to liege
+	LIBERTY_DESIRE_RELATIVE_POWER = 50,				-- Liberty desire from relative power to liege
 	LIBERTY_DESIRE_MARCH = -15,						-- Liberty desire from being a March
 	LIBERTY_DESIRE_DAIMYO = 10,						-- Liberty desire from being a Daimyo
 	LIBERTY_DESIRE_PROTECTORATE = -25,				-- Liberty desire from being a Protectorate
@@ -672,7 +672,7 @@ NEconomy = {
 	BANKRUPTCY_DURATION = 10,						-- _EDEF_BANKRUPTCY_DURATION_
 	WARTAXES_DURATION = 1,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
-	BASE_INTERESTS = 4.0,							-- Base interests
+	BASE_INTERESTS = 6.0,							-- Base interests
 	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.20,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
 	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
@@ -777,7 +777,7 @@ NMilitary = {
 	INFANTRY_COST = 16.0, 							-- _MDEF_INFANTRY_COST = 10,		
 	CAVALRY_COST = 30.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 2.0,							-- base fort cost
+	FORTRESS_COST = 1.0,							-- base fort cost
 	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,		

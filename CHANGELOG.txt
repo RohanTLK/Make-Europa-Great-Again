@@ -21,7 +21,7 @@ Re-do this section of the changelog!!!
 
 Things of note:
 'Diplomatic' has been merged into 'Influence'.
-Original Diplomatic now functions as a 'production' idea.
+Original Diplomatic now functions as a 'production' idea, is now called 'Infrastructure Ideas'
 Economic now functions as a 'Tax' idea.
 Trade is now more viable for non-naval nations.
 Exploration gets 1 extra colonist in the finisher to make up for everyone else getting a free colonist. 
@@ -60,6 +60,8 @@ The main goal here was to remove any +morale and +discipline policies from the u
 Each tech in military now increases maint cost by 3% instead of 1%. 
 Wartaxes buffed to 33% maint decrease but only lasts 1 year.
 Bankruptcy reduces morale by 50% instead of 100%. 
+Increased interest when taking a loan. This is to stop loan farming for buildings and coming out ahead economically from doing so.
+Vassals give more money to their overlord but also have internal economic buffs so they can keep up with siphoning more money.
 
 ############################
 #       4) Military        #
@@ -82,13 +84,14 @@ Everyone gets 1 extra free leader to account for the move away from doom-stack w
 ############################
 
 Reduced supply limits given from tech by about a third
-Reduced combat width given from tech by about a third
 No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
 The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This makes morale cycling easier.
 Slightly reduced RNG in battles by reducing the dice rolls to 0-6
 Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
 Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
 Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)
+Increased max NAVAL attrition to 10%
+Increased max ARMY attrition to 20%
 
 ############################
 #      6) Miscellaneous    #
@@ -103,12 +106,13 @@ You can now hold a massive 11 provinces in a colonial region before it will turn
 Revanchism decays a bit quicker.
 Base papal influence gain increased by 1.
 You lose 1 stability for changing an Aspect of Faith under Protestantism
+Liberty Desire relative to overlord reduced a bit to compensate that they have increased income and stuff.
 
 ############################
 #       7) Buildings       #
 ############################
 
-Increased the upkeep of forts massively, but reduced the cost of building forts. You won't have many forts but you'll be able to move them around easier. Protip, delete a few of your existing forts before you go bankrupt.
+Increased the upkeep of forts by double, but reduced the cost of building forts. You won't have many forts but you'll be able to move them around easier. Protip, you may need to delete existing forts. I swear to god if I see people still making fort webs I'll petition a rule against it.
 Marketplace now costs 150 and gives Trade Value +30% to local province
 Trade Depot gives Trade Value +60%
 Courthouse now provides -0.02 autonomy and tax +1

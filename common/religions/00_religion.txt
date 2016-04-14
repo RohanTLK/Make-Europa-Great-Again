@@ -413,7 +413,6 @@ christian = {
 		}
 		country = {
 			tolerance_heretic = 2
-			advisor_pool = 1
 			advisor_cost = -0.1
 			global_trade_goods_size_modifier = 0.1
 		}

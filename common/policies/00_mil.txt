@@ -433,7 +433,7 @@ letters_of_marque = {
 	}
 	
 	embargo_efficiency = 0.25
-	privateer_efficiency = 0.5
+	privateer_efficiency = 0.15
 	
 	ai_will_do = {
 		factor = 1

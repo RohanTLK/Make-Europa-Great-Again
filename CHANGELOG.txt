@@ -33,6 +33,10 @@ Halved morale and discipline bonuses across the board.
 Reduced infantry and cavalry power by about 1/3rd across the board.
 The purpose of the above is to have slightly less of a gap between land committed nations and nations that don't go land. Prussia and Sweden are still OP, however.
 
+Nerfed FL and Manpower country ideas to balance with morale and discipline. 
+
+CHANGED THE THEOCRACY GOVERNMENT MONTENEGRO'S FIRST IDEA FROM LEGITIMACY +1 TO PRESTIGE +1. THIS IS THE KIND OF PARADOX SHIT WE'RE DEALING WITH BOYS.
+
 ############################
 #        2) Policies       #
 ############################
@@ -69,8 +73,8 @@ Vassals give more money to their overlord but also have internal economic buffs 
 ############################
 
 Cost of making units increased by about 50% of their original price (not as bad as it sounds)
-Cost of making most ships increased by about 10g, cost of heavies increased by 35g. 
-Mercenarie are capped at a flat 42, non are given from FL. Bonuses to Mercenary availability are still applied on top of this (i.e. from Administrative NI)
+Cost of making most ships increased by about 10g, cost of heavies increased by 25g. 
+Mercenaries are capped at a flat 42, non are given from FL. Bonuses to Mercenary availability are still applied on top of this (i.e. from Administrative NI)
 Heavies are about 15% more expensive to maintain. 
 Reinforcing costs a bit more.
 Army/Navy Tradition gives a max bonus of 10% Land/Navy Morale, down from 25% which was ridiculous. However, high army tradition gives a bigger bonus to manpower pool regen speed. 
@@ -115,6 +119,7 @@ You can min-max fervor a bit easier by using prestige or by taking Religious NI 
 Positive Stability now gives slight corruption and autonomy reduction, and a 2.5% increase to tax PER STEP. Negative stability gives slight corruption and autonomy increase PER STEP
 You can now send an alliance offer to a country regardless of your relations with said country. However, if you're rivaled you still cannot send alliance offer because Paradox hate Multiplayer.
 HRE Reforms are rebalanced so they're good for both Emperor and members and removed the anti-multiplayer stuff. Now there is an actual reason to cooperate with your glorious emperor!
+Nerfed privateer efficiency bonuses down to a max of 15%.
 
 ############################
 #       7) Buildings       #

@@ -414,11 +414,13 @@ christian = {
 		country = {
 			tolerance_heretic = 2
 			advisor_pool = 1
+			advisor_cost = -0.1
+			global_trade_goods_size_modifier = 0.1
 		}
 		
 		country_as_secondary = {
 			global_unrest = -1
-			advisor_cost = -0.1
+
 		}
 
 		will_get_center = {

@@ -1,18 +1,29 @@
-#NOT EVEN SLIGHTLY COMPLETED!!!!!!!!!!!!!!!!!!!
+#NOT COMPLETED!!!!!!!!!!!!!!!!!!!
 
 Army Management:
 
 The availability of mercenaries has been greatly reduced and bonuses to mercenary pool are generally only found with economic/trade or colonial focused nations (except Burgundy). 
-Furthermore, manpower is now more important than ever and managing manpower is a lot more tricky. 
-Therefore, it can be very useful to hire rich countries to use their mercenaries on the frontline in order to deplete enemy manpower reserves whilst saving your own.
+Troops cost more to build and maintain and you cannot simply build up an army of mercenaries on the spot. Therefore, you need to manage your standing army carfeully. 
+
+Forts are very expensive to build and maintain, however, they provide a huge bonus to supply limit in the given province. This makes forts highly strategically valuable as you can station more troops on them without suffering attrition. 
+Manpower management is now more important because there is a higher cap on attrition, supply limits are lower and you cannot sustain an army on mercs. You should ensure your stacks are not suffering loads of attrition and use terrain cautiously. Building up your manpower pool is more valuable than ever.
+In addition to this, since manpower recovery speed is much higher, having a much larger manpower pool than an opponent means you are replenishing much more troops, therefore managing your manpower pool is a good way of countering this. 
 
 Warfare:
 
-Forts are very expensive to build and maintain, however, they provide a huge bonus to supply limit in the given province. This makes forts highly strategically valuable as you can station more troops on them without suffering attrition. 
-Manpower management is now more important because there is no cap to attrition, supply limits are lower and cannot sustain an army on mercs. You should ensure your stacks are not suffering loads of attrition and use terrain cautiously. 
-In addition to this, since manpower recovery speed is much higher, having a much larger manpower pool than an opponent means you are replenishing much more troops, therefore managing your manpower pool is a good way of countering this. 
+Territory control is very tactically valuable as you need room to spread your troops out. You cannot simply grab your whole army and put it into a battle because you will be giving up a lot of territory, and you will simply get outflanked. 
+YOU CAN MANUALLY RETREAT AND YOUR UNITS WON'T SHATTER. If you have 5 armies in a battle, you can manually retreat them individually. If they are above 10% individual morale they will not shatter, meaning they will retreat to exactly where you told them to. If they are below 10% total morale, well... those lads are going for a walk. 
+YOU CAN MANUALLY RETREAT AND YOUR REMAINING ARMY WON'T LOSE MORALE. That 'addition' to the game was retarded and I have no idea why Paradox included it. I don't care if it's realistic, it was anti-fun.
+Because the cap on attrition is 20%, if you bait an opponent's whole army into fighting your army, you can just manually retreat before the end of the month and you will deal more damage to them with attrition than you would fighting the battle. 
+Since Forts will be sparser, you can't simply throw your whole army in a battle, because if you lose that battle and shatter, you're gonna get rekt m9. 
 
+An old tactic called 'morale cycling' is now affective again. The idea behind morale cycling was to keep sending constant waves of troops into a battle whilst avoiding attrition and artificially increasing the total morale of your army.
+Morale cycling is pretty simple. Let's say you have 5 armies on stand-by, and your opponent is attacking one of them. You reinforce with one of your other armies, and they do the same. In vanilla, the next step would be to grab another army and move it in. 
+However, in this mod, that is not the most efficient way. What you should do is select the battle, from the GUI on the left find the original army, then manually retreat it out. At the same time, you grab one of your nearby armies on stand-by and move that into the skirmish. 
+Now, the army you just pulled out is going to regain morale, and you've got a few more armies to cycle through. So basically, if you keep repeating this process you'll artificially inflate your total morale of the battle. Move a new army in > move a weakened army out.
 
+THE COUNTER to morale cycling is multi skirmish warfare. You can let your opponent cycle some troops through on a skirmish, and when they start moving the weakened ones back, an opportunity arrises for you to attack one of their other armies in a NEW skirmish, since they will effectively be 3 armies down. 
+You can get even more creative than this, but you get the idea.
 
 Economic Management:
 

@@ -1,4 +1,4 @@
-reichsreform = {
+entwicklungsreform = {
 	member = {
 		build_cost = -0.05
 		development_cost = -0.05
@@ -15,105 +15,81 @@ reichsreform = {
 	}
 }
 
-reichsregiment = {
+stabilityreform = { 
 	member = {
-		global_unrest = -2
+		global_unrest = -2		
 	}
 	emperor = {
-		diplomatic_reputation = 1
-		diplomats = 1
+		stability_cost_modifier = -0.10
+		global_unrest = -1
 	}
 }
 
-hofgericht = { 
+verwaltungsreform = {
 	member = {
-		legitimacy = 0.5
-	}
-	emperor = {
-		legitimacy = 0.5
 		core_creation = -0.10
+		adm_tech_cost_modifier = -0.05
+	}
+	emperor = {
+		core_creation = -0.15
 	}
 }
 
-gemeinerpfennig = {
+
+diplomaticreform = {
 	member = {
+		diplomatic_upkeep = 1
+		dip_tech_cost_modifier = -0.05
+		
+	}
+	emperor = {
+		diplomatic_upkeep = 2
 		diplomatic_reputation = 1
 	}
+}
+militarreform = {
+	member = {
+		army_tradition = 0.20
+		mil_tech_cost_modifier = -0.05	
+	}
 	emperor = {
-		global_tax_income = 20
+		army_tradition = 0.40
+
 	}
 }
 
-landfriede = {
+steuerreform = {
 	member = {
-		technology_cost = -0.05
+		global_tax_income = 5
 	}
 	emperor = {
-		prestige = 0.5
-	}
-	on_effect = {
-		internal_hre_cb = no
-	}
-	off_effect = {
-		internal_hre_cb = yes
+		global_tax_income = 15
 	}
 }
 
-erbkaisertum = {
+mobilisation = {
 	member = {
-		legitimacy = 0.5
+		advisor_pool = 1
+		advisor_cost = -0.1	
 	}
 	emperor = {
-		imperial_authority = 0.25
+		advisor_pool = 1
+		advisor_cost = -0.1	
+
 	}
-	on_effect = {
-		if = {
-			limit = {
-				hre_religion_locked = no
-				hre_religion_treaty = no
-			}
-			set_hre_religion_treaty = yes
-		}	
+}
+empire_end = {
+	member = {
+		idea_cost = -0.10
+	}
+	emperor = {
+		idea_cost = -0.10
+		
+	}
+	on_effect = {		
 		hre_inheritable = yes
 	}
 	off_effect = {
 		hre_inheritable = no
-	}
-}
-
-privilegia_de_non_appelando = {
-
-	war = yes			#this may cause a war, so special AI check needed, to not lose many.
-	
-	member = {
-		stability_cost_modifier = -0.10
-	}
-	emperor = {
-		imperial_authority = 0.25
-	}
-	on_effect = {
-	
-		emperor = {
-			country_event = { id = 9073 tooltip = vassalize_empire2 }
-		}
-		hidden_effect = {
-			every_country = {
-				limit = {
-					is_part_of_hre = yes
-					is_emperor = no
-					num_of_cities = 1
-					NOT = { vassal_of = ROOT }
-				}
-				country_event = { id = 9074 }
-			}
-		}
-	}	
-}
-
-renovatio = {
-	on_effect = {
-		emperor = {
-			country_event = { id = 9075 tooltip = renovatio_effect }
-		}
 	}
 }

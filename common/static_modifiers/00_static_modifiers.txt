@@ -128,8 +128,10 @@ severe_winter = {
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.2				
-	trade_goods_size_modifier = -0.5
-	province_trade_power_modifier = -0.75
+	trade_goods_size_modifier = -0.75
+	province_trade_power_modifier = -0.90
+	local_tax_modifier = -0.40
+	local_unrest = -3
 }
 
 no_adjacent_controlled = {

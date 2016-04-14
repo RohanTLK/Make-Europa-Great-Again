@@ -1,5 +1,5 @@
 ############################
-#         V0.0.2           #
+#         V0.1             #
 #     Changelog Index      #
 ############################
 
@@ -25,6 +25,7 @@ Original Diplomatic now functions as a 'production' idea, is now called 'Infrast
 Economic now functions as a 'Tax' idea.
 Trade is now more viable for non-naval nations.
 Exploration gets 1 extra colonist in the finisher to make up for everyone else getting a free colonist. 
+Quantity is now a viable counter to quality. Less attrition, less cost of stuff more MP regen.
 
 #Country Ideas:#
 
@@ -67,16 +68,17 @@ Vassals give more money to their overlord but also have internal economic buffs 
 #       4) Military        #
 ############################
 
-Cost of making units increased by about 50%
+Cost of making units increased by about 50% of their original price (not as bad as it sounds)
 Cost of making most ships increased by about 10g, cost of heavies increased by 35g. 
 Mercenarie are capped at a flat 42, non are given from FL. Bonuses to Mercenary availability are still applied on top of this (i.e. from Administrative NI)
-Heavies are 10% more expensive to maintain. 
+Heavies are about 15% more expensive to maintain. 
 Reinforcing costs a bit more.
 Army/Navy Tradition gives a max bonus of 10% Land/Navy Morale, down from 25% which was ridiculous. However, high army tradition gives a bigger bonus to manpower pool regen speed. 
 Prestige now gives max 5% Land/Navy Morale, down from 10%
 Power Projection gives max 5% Land/Navy Morale, down from 10%
 Base Supply Limits have been reduced but global manpower recovery speed has been increased, it will take about 4 years to fully replenish your manpower pool without any additional modifiers.
 Everyone gets 1 extra free leader to account for the move away from doom-stack warfare.
+Blockades are a lot more hurty.
 
 
 ############################
@@ -85,14 +87,13 @@ Everyone gets 1 extra free leader to account for the move away from doom-stack w
 
 Reduced supply limits given from tech by about a third
 No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
-The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This means you can manually retreat an army to the province you told it to go to, if the individual army has >10% morale. 
+The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This means you can manually retreat an army to the province you told it to go to, if the individual army has >10% morale.
 Slightly reduced RNG in battles by reducing the dice rolls to 0-6
 Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
 Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
 Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)
 Increased max NAVAL attrition to 10%
 Increased max ARMY attrition to 20%
-Reduced INITIAL combat width to help with supply limit management in the early game. The lost combat width is given back gradually over the proceeding techs (aligned with supply limit techs).
 
 ############################
 #      6) Miscellaneous    #
@@ -105,18 +106,21 @@ Crusades and Excommunications can happen more frequently.
 Advisors are slightly more expensive with each passing year.
 You can now hold a massive 11 provinces in a colonial region before it will turn into a CN. Yes, this means you have to colonise an extra TWO WHOLE PROVINCES before getting the merchant. 
 Revanchism decays a bit quicker.
-Base papal influence gain increased by 1.5
+Base papal influence gain increased by 1.5 for catholic nations
 You lose 1 stability for changing an Aspect of Faith under Protestantism
 Liberty Desire relative to overlord reduced a bit to compensate that they have increased income and stuff.
+'Embrace the counter reformation' decision additionally gives +5% Land/Naval morale and -5% Idea Cost.
+Reformed religion additionally gives +10% good produced modifer and -10% advisor cost.
+You can min-max fervor a bit easier by using prestige or by taking Religious NI (or both)
 Positive Stability now gives slight corruption and autonomy reduction, and a 2.5% increase to tax PER STEP. Negative stability gives slight corruption and autonomy increase PER STEP
-You can now send an alliance offer to a country regardless of your relations with said country. However, if you're rivaled you still cannot send alliance offer.
-Embrace Counter Reformation decision gives +5% Land/Naval Morale and no longer gives +5% Idea Cost mallus. Increased papal influence gain from 0.5 to 1.
+You can now send an alliance offer to a country regardless of your relations with said country. However, if you're rivaled you still cannot send alliance offer because Paradox hate Multiplayer.
+HRE Reforms are rebalanced so they're good for both Emperor and members and removed the anti-multiplayer stuff. Now there is an actual reason to cooperate with your glorious emperor!
 
 ############################
 #       7) Buildings       #
 ############################
 
-Increased the upkeep of forts by double, but reduced the cost of building forts. You won't have many forts but you'll be able to move them around easier. Protip, you may need to delete existing forts. I swear to god if I see people still making fort webs I'll petition a rule against it.
+Increased the upkeep of forts by double. Forts give +X% supply limit and reduced unrest to province they are built in. You won't have many forts but you'll be able to move them around easier. Protip, you may need to delete existing forts. I swear to god if I see people still making fort webs I'll petition a rule against it.
 Marketplace now costs 150 and gives Trade Value +30% to local province
 Trade Depot gives Trade Value +60%
 Courthouse now provides -0.02 autonomy and tax +1

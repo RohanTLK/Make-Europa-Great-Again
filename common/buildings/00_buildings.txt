@@ -183,12 +183,12 @@ shipyard = {
 }
 
 fort_15th = {
-	cost = 200
+	cost = 400
 	time = 30
 	modifier = {
 		fort_level = 2
 		supply_limit_modifier = 0.5
-		local_unrest = -1
+		local_unrest = -2
 	}
 	
 	onmap = yes
@@ -316,13 +316,13 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 300
+	cost = 600
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
-		supply_limit_modifier = 0.8
-		local_unrest = -2
+		supply_limit_modifier = 1.0
+		local_unrest = -4
 	}
 
 	onmap = yes

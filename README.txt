@@ -42,5 +42,11 @@ as we like to watch how campaigns progress to judge any potential balance issues
 Phant - Manager and terrible modder 
 DragonKnight - Modder whom knows what he's doing
 Comrade - Grunt & balance coordinator 
-Clonefusion - The brains 
-Kneehi - Balance coordinator
+Kneehi - Chief Balance coordinator (apparently)
+
+#####################################
+#            Credits                #
+#####################################
+Clonefusion - The brains, provided immense help in the raw modding.
+Tzeentch - Gave valuable suggestions and I may have borrowed more than a few lines of code from the Sunday League Mod.
+The pretesters, there were a lot of you. Cheers m8s!

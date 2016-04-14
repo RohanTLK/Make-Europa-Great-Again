@@ -765,10 +765,11 @@ hire_privateers = {
 
 counter_reformation = {
 	global_heretic_missionary_strength = 0.03
-	papal_influence = 0.5
+	papal_influence = 1
 	missionaries = 2
 	technology_cost = 0.05
-	idea_cost = 0.05
+	land_morale = 0.05
+	naval_morale = 0.05
 }
 
 russian_patriarchate = {

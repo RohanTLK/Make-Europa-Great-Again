@@ -71,7 +71,6 @@ technology = {
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
 	
-	combat_width = 5
 }
 
 # The 30 big techs from here on
@@ -92,6 +91,7 @@ technology = {
 
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
+	
 }
 
 technology = {
@@ -168,6 +168,8 @@ technology = {
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
+	
+	combat_width = 1
 }
 
 technology = {
@@ -180,6 +182,7 @@ technology = {
 
 	
 	regimental_camp = yes
+	
 }
 
 technology = {
@@ -270,6 +273,8 @@ technology = {
 	enable = african_hill_warfare	
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
+	
+	combat_width = 2
 }
 
 technology = {
@@ -363,6 +368,8 @@ technology = {
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
+	
+	combat_width = 2
 }
 
 technology = {

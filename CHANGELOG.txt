@@ -85,13 +85,14 @@ Everyone gets 1 extra free leader to account for the move away from doom-stack w
 
 Reduced supply limits given from tech by about a third
 No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
-The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This makes morale cycling easier.
+The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This means you can manually retreat an army to the province you told it to go to, if the individual army has >10% morale. 
 Slightly reduced RNG in battles by reducing the dice rolls to 0-6
 Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
 Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
 Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)
 Increased max NAVAL attrition to 10%
 Increased max ARMY attrition to 20%
+Reduced INITIAL combat width to help with supply limit management in the early game. The lost combat width is given back gradually over the proceeding techs (aligned with supply limit techs).
 
 ############################
 #      6) Miscellaneous    #
@@ -99,14 +100,17 @@ Increased max ARMY attrition to 20%
 
 Added a decision for any western country WITHOUT exclusively the Exploration NI for +1 Colonist when at Diplo tech 11
 Added a decision for countries with Exploration or Expansion NI that gives global colonial growth +35
-You will get bad overextension events at 70% OE now. 
+You will get bad overextension events at 90% OE now. 
 Crusades and Excommunications can happen more frequently. 
 Advisors are slightly more expensive with each passing year.
 You can now hold a massive 11 provinces in a colonial region before it will turn into a CN. Yes, this means you have to colonise an extra TWO WHOLE PROVINCES before getting the merchant. 
 Revanchism decays a bit quicker.
-Base papal influence gain increased by 1.
+Base papal influence gain increased by 1.5
 You lose 1 stability for changing an Aspect of Faith under Protestantism
 Liberty Desire relative to overlord reduced a bit to compensate that they have increased income and stuff.
+Positive Stability now gives slight corruption and autonomy reduction, and a 2.5% increase to tax PER STEP. Negative stability gives slight corruption and autonomy increase PER STEP
+You can now send an alliance offer to a country regardless of your relations with said country. However, if you're rivaled you still cannot send alliance offer.
+Embrace Counter Reformation decision gives +5% Land/Naval Morale and no longer gives +5% Idea Cost mallus. Increased papal influence gain from 0.5 to 1.
 
 ############################
 #       7) Buildings       #

@@ -241,7 +241,7 @@ NDiplomacy = {
 	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
 	
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 60,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 36,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
 	
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
@@ -1410,7 +1410,7 @@ NReligion = {
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
 	MAX_CARDINALS_PER_COUNTRY = 7,								-- Max cardinals in a single country
 	
-	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 1.5,						-- The amount of yearly papal influence you receive each year for being catholic
+	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 2.0,						-- The amount of yearly papal influence you receive each year for being catholic
 	YEARLY_PAPAL_INFLUENCE_PER_CARDINAL = 0.5,					-- The amount of yearly papal influence you receive each year for each cardinal you have active
 	YEARLY_POPE_INVESTED_INFLUENCE_PER_CARDINAL = 0.1,			-- The amount of investment Papal state gets towards becoming Papal controller for each cardinal that exists
 	MAX_PAPAL_INFLUENCE = 200.0,								-- The maximum stored amount of papal influence for each country.

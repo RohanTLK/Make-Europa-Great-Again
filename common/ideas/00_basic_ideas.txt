@@ -796,7 +796,7 @@ administrative_ideas = {
 		prestige = 1
 	}
 	civil_servants = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.30
 	}
 
 	ai_will_do = {

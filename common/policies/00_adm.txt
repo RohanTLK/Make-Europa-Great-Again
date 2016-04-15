@@ -284,7 +284,7 @@ privy_council_establishment_act = {
 	}
 
 	defensiveness = 0.10
-	global_autonomy = -0.01
+	global_autonomy = -0.03
 	
 	ai_will_do = {
 		factor = 1
@@ -310,7 +310,7 @@ the_foreign_support_act = {
 		full_idea_group = economic_ideas
 	}
 
-	rebel_support_efficiency = 0.50
+	rebel_support_efficiency = 0.33
 	
 	ai_will_do = {
 		factor = 1
@@ -338,7 +338,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	army_tradition_decay = -0.01
+	army_tradition_decay = -0.005
 	discipline = 0.025
 	
 	ai_will_do = {
@@ -365,7 +365,7 @@ the_mercenary_registration_act = {
 	}
 
 	possible_mercenaries = 0.25
-	merc_maintenance_modifier = -0.25
+	merc_maintenance_modifier = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -801,7 +801,6 @@ risk_assessment_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	army_tradition = 1
 	core_creation = -0.25
 	
 	ai_will_do = {

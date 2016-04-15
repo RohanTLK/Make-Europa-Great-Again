@@ -10,6 +10,8 @@
 5) Combat
 6) Miscellaneous
 7) Buildings
+8) Religion
+9) Governments
 
 ############################
 #        1) Ideas          #
@@ -26,6 +28,7 @@ Economic now functions as a 'Tax' idea.
 Trade is now more viable for non-naval nations.
 Exploration gets 1 extra colonist in the finisher to make up for everyone else getting a free colonist. 
 Quantity is now a viable counter to quality. Less attrition, less cost of stuff more MP regen.
+Defensive and Offensive should be relatively even, and they are logically built for what their title implies. Offensive idea will be good at fighting wars away from home. Defensive idea will be good for holding your ground.
 
 #Country Ideas:#
 
@@ -83,6 +86,8 @@ Power Projection gives max 5% Land/Navy Morale, down from 10%
 Base Supply Limits have been reduced but global manpower recovery speed has been increased, it will take about 4 years to fully replenish your manpower pool without any additional modifiers.
 Everyone gets 1 extra free leader to account for the move away from doom-stack warfare.
 Blockades are a lot more hurty.
+All Morale and Discipline Event sources decreased to align with global morale and discipline decreases. Hopefully I didn't miss anything.
+Reduced Cossack Estates Cav Ability Bonus to max +10%
 
 
 ############################
@@ -92,7 +97,7 @@ Blockades are a lot more hurty.
 Reduced supply limits given from tech by about a third
 No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
 The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This means you can manually retreat an army to the province you told it to go to, if the individual army has >10% morale.
-Slightly reduced RNG in battles by reducing the dice rolls to 0-6
+Slightly reduced RNG in battles by reducing the dice rolls spread to 0-6 (it used to be 0-9 spread). The combat dice is a D7 for all you RPG nerds, do D7s even exist? 
 Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
 Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
 Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)
@@ -103,6 +108,7 @@ Increased max ARMY attrition to 20%
 #      6) Miscellaneous    #
 ############################
 
+You can declare war whilst in a regency. 
 Added a decision for any western country WITHOUT exclusively the Exploration NI for +1 Colonist when at Diplo tech 11
 Added a decision for countries with Exploration or Expansion NI that gives global colonial growth +35
 You will get bad overextension events at 90% OE now. 
@@ -110,16 +116,13 @@ Crusades and Excommunications can happen more frequently.
 Advisors are slightly more expensive with each passing year.
 You can now hold a massive 11 provinces in a colonial region before it will turn into a CN. Yes, this means you have to colonise an extra TWO WHOLE PROVINCES before getting the merchant. 
 Revanchism decays a bit quicker.
-Base papal influence gain increased by 1.5 for catholic nations
-You lose 1 stability for changing an Aspect of Faith under Protestantism
 Liberty Desire relative to overlord reduced a bit to compensate that they have increased income and stuff.
-'Embrace the counter reformation' decision additionally gives +5% Land/Naval morale and -5% Idea Cost.
-Reformed religion additionally gives +10% good produced modifer and -10% advisor cost.
-You can min-max fervor a bit easier by using prestige or by taking Religious NI (or both)
 Positive Stability now gives slight corruption and autonomy reduction, and a 2.5% increase to tax PER STEP. Negative stability gives slight corruption and autonomy increase PER STEP
 You can now send an alliance offer to a country regardless of your relations with said country. However, if you're rivaled you still cannot send alliance offer because Paradox hate Multiplayer.
 HRE Reforms are rebalanced so they're good for both Emperor and members and removed the anti-multiplayer stuff. Now there is an actual reason to cooperate with your glorious emperor!
+The Emperor (and cooperating members) will want to actually leave free-cities alive, as they genetate for Imperial Authority now. However, reforms cost 75 IA to pass. 
 Nerfed privateer efficiency bonuses down to a max of 15%.
+Burgundy's 'Form Netherlands' decision no longer feeds its cores to France. No, King did not force me to change this. 
 
 ############################
 #       7) Buildings       #
@@ -130,5 +133,29 @@ Marketplace now costs 150 and gives Trade Value +30% to local province
 Trade Depot gives Trade Value +60%
 Courthouse now provides -0.02 autonomy and tax +1
 Stock Exchange gives Trade Value +30% and Trade Value +1.
-Town Hall gives -5 unrest, -0.05 autonomy and tax +2
+Town Hall gives -5 unrest, -0.05 local autonomy and tax +2
 
+############################
+#       8) Religion        #
+############################
+
+You can min-max fervor (reformed) a bit easier by using prestige or by taking Religious NI (or both)
+You lose 1 stability for changing an Aspect of Faith under Protestantism
+Base papal influence gain increased by 1.5 for catholic nations
+'Embrace the counter reformation' decision additionally gives +5% Land/Naval morale and -5% Idea Cost (still gives tech cost mallus)
+Reformed religion additionally gives +10% good produced modifer and -10% advisor cost.
+
+
+############################
+#       9) Governments     #
+############################
+
+Feudal Monarchy gives +1 Dip Relations instead of Manpower
+Administrative Monarchy gives +15% Global Tax instead of 5%
+Absolute Monarchy gives +15% Manpower instead of Discipline
+Enlightened Despotism gives -10% Idea Cost instead of Manpower
+Merchant Republics now additionally get +10% TE, Caravan Power bonus reduced to +20%
+Oligarchic Republic gives +10% Global Tax
+Theocracies give an additional 10% Manpower
+Merchant Republics can be 34 provinces strong. 
+Free Cities get an additional +20% FL

@@ -47,7 +47,7 @@ christian = {
 			}			
 		
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		
 		papacy = {
@@ -395,7 +395,7 @@ christian = {
 				}
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 		
 		date = 1517.10.31
@@ -554,7 +554,7 @@ christian = {
 				}
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { METHODIST BAPTIST QUAKER }
 		
 		date = 1536.5.1
@@ -577,7 +577,7 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 		
-		
+		declare_war_in_regency = yes
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
 		has_patriarchs = yes		# Uses patriarch authority
@@ -603,7 +603,7 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
 		
 		misguided_heretic = yes		# Other christians hate them less (?)
@@ -634,7 +634,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -654,7 +654,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { DRUZE HURUFI ZAIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -674,7 +674,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -711,7 +711,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -740,7 +740,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -769,7 +769,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -786,6 +786,7 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
+		declare_war_in_regency = yes
 		heretic = { TAOIST }
 	}
 
@@ -802,6 +803,7 @@ eastern = {
 			discipline = 0.05
 			global_unrest = -1
 		}
+		declare_war_in_regency = yes
 		heretic = { SHUGENDO }
 	}
 	
@@ -839,7 +841,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { BHAKTI }
 	}
 
@@ -870,7 +872,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-
+		declare_war_in_regency = yes
 		heretic = { MASANDIS }
 
 		date = 1499.01.01
@@ -898,7 +900,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { SNAKE_CLAN }
 	}
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
@@ -915,6 +917,7 @@ pagan = {
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
+		declare_war_in_regency = yes
 		heretic = { GOAT_SKULL }
 	}
 	totemism = {
@@ -931,7 +934,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { BEAR_SPIRIT }	
 	}
 	
@@ -953,6 +956,7 @@ pagan = {
 		}
 		
 		authority = yes
+		declare_war_in_regency = yes
 		religious_reforms = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
 		
@@ -1000,7 +1004,7 @@ pagan = {
 		
 		religious_reforms = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
-		
+		declare_war_in_regency = yes
 		heretic = { MESOAMERICAN_HERETIC }	
 	}
 	
@@ -1020,7 +1024,7 @@ pagan = {
 		}
 		
 		personal_deity = yes
-		
+		declare_war_in_regency = yes
 		heretic = { OLD_NORSE }	
 	}
 	
@@ -1032,6 +1036,7 @@ pagan = {
 			global_regiment_cost = -0.1
 		}
 		can_have_secondary_religion = yes
+		declare_war_in_regency = yes
 		heretic = { OLD_TENGRI }
 	}
 	
@@ -1057,7 +1062,7 @@ jewish_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { SAMARITAN KARAITE }
 	}
 	
@@ -1082,7 +1087,7 @@ zoroastrian_group = {
 			merchants = 1
 			tolerance_own = 1
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { MAZDAKI MANICHEAN }	
 	}
 	

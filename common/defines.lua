@@ -660,7 +660,7 @@ NEconomy = {
 	INCREASE_AUTONOMY_STEP = 25,
 	INCREASE_AUTONOMY_MAX = 75,
 	AUTONOMY_CHANGE_DURATION = 10950,			-- about 30 years
-	LAND_TECH_MAINTENANCE_IMPACT = 0.03, 			-- % each tech increases it.
+	LAND_TECH_MAINTENANCE_IMPACT = 0.05, 			-- % each tech increases it.
 	ADVISOR_COST = 1.0,								-- Advisor cost modifier
 	GOLD_INFLATION_THRESHOLD = 0.0,					-- _EDEF_GOLD_INFLATION_THRESHOLD_
 	GOLD_INFLATION = 0.5,							-- _EDEF_GOLD_INFLATION_
@@ -673,7 +673,7 @@ NEconomy = {
 	WARTAXES_DURATION = 1,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 6.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.175,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	LAND_MAINTENANCE_FACTOR = 0.125,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.20,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
 	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
 	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
@@ -776,7 +776,7 @@ NMilitary = {
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
 	INFANTRY_COST = 16.0, 							-- _MDEF_INFANTRY_COST = 10,		
 	CAVALRY_COST = 24.0, 							-- _MDEF_CAVALRY_COST = 10,		
-	ARTILLERY_COST = 36.0, 							-- _MDEF_ARTILLERY_COST = 10,		
+	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 1.0,							-- base fort cost
 	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
@@ -791,7 +791,7 @@ NMilitary = {
 	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,		
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
-	EXTRA_LAND_REINFORCE_COST = 3.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
+	EXTRA_LAND_REINFORCE_COST = 2.50,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	TRADITION_GAIN_LAND = 10,						-- Tradition gain base value from land combat.
 	TRADITION_GAIN_NAVAL = 20,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris

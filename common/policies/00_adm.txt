@@ -749,7 +749,7 @@ colonial_administration_act = {
 	
 	global_colonial_growth = 10
 	colonist_placement_chance = 0.05
-	possible_mercenaries = 0.33
+	possible_mercenaries = 0.2
 
 	
 	ai_will_do = {
@@ -829,7 +829,7 @@ land_inheritance_act = {
 	}
 
 	global_tax_modifier = 0.1
-	global_manpower_modifier = 0.1
+	global_manpower_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1

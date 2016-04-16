@@ -2,6 +2,7 @@
 #         V0.1             #
 #     Changelog Index      #
 ############################
+http://steamcommunity.com/sharedfiles/filedetails/?id=665742747
 
 1) Ideas
 2) Policies
@@ -78,7 +79,6 @@ Vassals give more money to their overlord but also have internal economic buffs 
 Cost of making units increased by about 50% of their original price (not as bad as it sounds)
 Cost of making most ships increased by about 10g, cost of heavies increased by 25g. 
 Mercenaries are capped at a flat 42, non are given from FL. Bonuses to Mercenary availability are still applied on top of this (i.e. from Administrative NI)
-Heavies are about 15% more expensive to maintain. 
 Reinforcing costs a bit more.
 Army/Navy Tradition gives a max bonus of 10% Land/Navy Morale, down from 25% which was ridiculous. However, high army tradition gives a bigger bonus to manpower pool regen speed. 
 Prestige now gives max 5% Land/Navy Morale, down from 10%
@@ -97,7 +97,6 @@ Reduced Cossack Estates Cav Ability Bonus to max +10%
 Reduced supply limits given from tech by about a third
 No penalty for manually retreating stacks from a battle. MORALE CYCLING IS A THING AGAIN BOYS.
 The morale threshold at which a unit will shatter has been reduced to 10% of its maximum morale. This means you can manually retreat an army to the province you told it to go to, if the individual army has >10% morale.
-Slightly reduced RNG in battles by reducing the dice rolls spread to 0-6 (it used to be 0-9 spread). The combat dice is a D7 for all you RPG nerds, do D7s even exist? 
 Unit movement is locked at 75% of progress rather than 50% of progress, which was pretty dumb.
 Scorched earth will now dessimate your province, but any armies sitting on a scorched earth province are going to have a bad time. 
 Scorched earth lasts for 24 months instead of 40 (necessary to stop abuse)

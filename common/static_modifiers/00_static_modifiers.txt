@@ -395,14 +395,14 @@ ai_nation = {
 }
 
 war_taxes = {
-	land_maintenance_modifier = -0.33
-	naval_maintenance_modifier = -0.33
+	land_maintenance_modifier = -0.3
+	naval_maintenance_modifier = -0.3
 	possible_mercenaries = 0.05
 }
 
 stability = {
-	global_trade_power = 0.01			#1% chance each step.
-	global_spy_defence = 0.05				#-15 to +15% modifier
+	global_own_trade_power = 0.075 			#7.5% chance each step.
+	global_spy_defence = 0.1				#-30 to +30% modifier
 }
 
 positive_stability = {

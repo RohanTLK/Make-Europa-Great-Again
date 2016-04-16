@@ -669,12 +669,12 @@ poor_uniforms = {
 
 free_colonist = {
 	colonists = 1
-	range = 0.20
+	range = 0.05
 }
 
 free_growth = {
 	global_colonial_growth  = 20
-	range = 0.20
+	range = 0.1
 }
 
 salt_crisis = {

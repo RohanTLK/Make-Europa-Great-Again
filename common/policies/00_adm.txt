@@ -606,7 +606,7 @@ public_legitimacy = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	global_unrest = -1
+	hostile_attrition = 1
 	global_spy_defence = 0.2
 
 	ai_will_do = {

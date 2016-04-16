@@ -275,7 +275,7 @@ NDiplomacy = {
 NCountry = {
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
-	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
+	STATE_MAINTENANCE_DEV_FACTOR = 0.01,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001,	-- distance 
 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
@@ -673,7 +673,7 @@ NEconomy = {
 	WARTAXES_DURATION = 1,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 6.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.125,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	LAND_MAINTENANCE_FACTOR = 0.135,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.1,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
 	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
 	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
@@ -762,7 +762,7 @@ NMilitary = {
 	GALLEY_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MIN_MONTHLY_MANPOWER = 0.2,						-- 200 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 0,						-- 0 men/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						-- 
@@ -774,10 +774,10 @@ NMilitary = {
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
-	INFANTRY_COST = 16.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 24.0, 							-- _MDEF_CAVALRY_COST = 10,		
+	INFANTRY_COST = 18.0, 							-- _MDEF_INFANTRY_COST = 10,		
+	CAVALRY_COST = 26.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 1.0,							-- base fort cost
+	FORTRESS_COST = 1.5,							-- base fort cost
 	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,		
@@ -791,7 +791,7 @@ NMilitary = {
 	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,		
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
-	EXTRA_LAND_REINFORCE_COST = 2.50,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
+	EXTRA_LAND_REINFORCE_COST = 2.0,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	TRADITION_GAIN_LAND = 10,						-- Tradition gain base value from land combat.
 	TRADITION_GAIN_NAVAL = 20,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
@@ -834,7 +834,7 @@ NMilitary = {
 	CANNOT_RETREAT_DAYS = 12, 						-- How many days combat has to last before one side can retreat
 	DAYS_PER_PHASE = 3,								-- How many days each fire and shock phase lasts
 	DAYS_PER_SIEGE_PHASE = 30,						-- How many days each siege phase lasts
-	COMBAT_DICE_SIDE = 6,							-- How many sides the dice used in combat has
+	COMBAT_DICE_SIDE = 10,							-- How many sides the dice used in combat has
 	BLOCKADE_FACTOR = 3,								-- (Total sail speed / blockade_factor) * blockade_efficiency / province development
 	REBEL_RELOCATION_TIME = 2.0,						-- How long time it takes for rebels to relocate from island
 	REBEL_RELOCATION_DISTANCE_MAX = 200,					-- The maximum distance rebels will relocate to.

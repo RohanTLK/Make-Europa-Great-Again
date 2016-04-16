@@ -183,11 +183,11 @@ shipyard = {
 }
 
 fort_15th = {
-	cost = 400
+	cost = 200
 	time = 30
 	modifier = {
-		fort_level = 2
-		supply_limit_modifier = 0.5
+		fort_level = 1
+		supply_limit_modifier = 0.30
 		local_unrest = -2
 	}
 	
@@ -235,7 +235,7 @@ fort_15th = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 300
+	cost = 200
 	time = 12
 	modifier = {
 		local_unrest = -3
@@ -316,12 +316,12 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 600
+	cost = 400
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
-		fort_level = 4
-		supply_limit_modifier = 1.0
+		fort_level = 2
+		supply_limit_modifier = 0.5
 		local_unrest = -4
 	}
 
@@ -552,12 +552,11 @@ fort_17th = {
 	
 	make_obsolete = fort_16th
 	
-	trigger = {
-		is_year = 1900
-	}
 	
 	modifier = {
-		fort_level = 6
+		fort_level = 3
+		supply_limit_modifier = 0.70
+		local_unrest = -2
 	}
 
 	onmap = yes
@@ -603,7 +602,7 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 500
+	cost = 600
 	time = 12
 	
 	make_obsolete = trade_depot
@@ -779,12 +778,10 @@ fort_18th = {
 	
 	make_obsolete = fort_17th
 	
-	trigger = {
-		is_year = 1900
-	}
-	
 	modifier = {
-		fort_level = 8
+		fort_level = 4
+		supply_limit_modifier = 0.90
+		local_unrest = -2
 	}
 
 	onmap = yes

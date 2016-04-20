@@ -57,7 +57,7 @@ NDiplomacy = {
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	SPY_NETWORK_DISTANCE_EFFECT = 1,			-- Mutiplied by distance between capitals to get penalty
-	OVEREXTENSION_THRESHOLD = 0.90,				-- at which threshold you can get events
+	OVEREXTENSION_THRESHOLD = 1.0,				-- at which threshold you can get events
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,	
@@ -66,11 +66,11 @@ NDiplomacy = {
 	MAX_FREE_CITIES = 8,
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
 	HRE_PRINCE_AUTHORITY_THRESHOLD = 25,			-- Threshold below which you lose IA, and above which you gain it
-	IMPERIAL_AUTHORITY_FROM_PRINCES = 0.2,			-- Scales to threshold
+	IMPERIAL_AUTHORITY_FROM_PRINCES = 0.1,			-- Scales to threshold
 	HRE_FOREIGN_CONTROL_PENALTY = -0.005,			-- Each foreign-controlled province in the empire (owned or vassalised) lowers IA by this amount
 	HRE_HERETIC_PENALTY = -0.01,					-- Per heretic prince (halved by Peace of Westphalia)
 	LACK_OF_ELECTORS_HIT = -0.1,					-- Also applied to vassalized electors
-	IMPERIAL_REFORM_COST = 75,						-- Minium Cost of enacting a new reform.
+	IMPERIAL_REFORM_COST = 50,						-- Minium Cost of enacting a new reform.
 	DEFENDER_OF_FAITH_COST = 500, 					-- _DDEF_DEFENDER_OF_FAITH_COST_
 	DEFENDER_OF_FAITH_MONTHS = 24, 					-- _DDEF_DEFENDER_OF_FAITH_MONTHS_ (Minimum months before it can be taken from another country with less prestige)
 	AMOUNT_OF_ACTIVE_CARDINALS = 7, 				-- Number of active Cardinals
@@ -673,7 +673,7 @@ NEconomy = {
 	WARTAXES_DURATION = 1,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 6.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.15,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.1,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
 	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
 	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
@@ -687,7 +687,7 @@ NEconomy = {
 	COLONIST_DISTANCE_DIVISOR = 1000,				-- _EDEF_COLONIST_DISTANCE_DIVISOR_
 	COLONIST_TIME = 0.3,							-- _EDEF_COLONIST_TIME_		
 	COLONIST_CHANCE = 0.05,							-- _EDEF_COLONIST_CHANCE_	
-	MISSIONARY_TIME_BASE = 1000,					-- _EDEF_MISSIONARY_TIME_BASE = 10,
+	MISSIONARY_TIME_BASE = 1250,					-- _EDEF_MISSIONARY_TIME_BASE = 10,
 	MISSIONARY_TIME_DISTANCE = 0.2,					-- _EDEF_MISSIONARY_TIME_DISTANCE = 10,
 	TRADE_WIND_STRENGTH = 0.5,						-- _EDEF_TRADE_WIND_STRENGTH_
 	MERCHANT_COMPETE_PERCENT_OWNED_BASE = 0.25,		-- _EDEF_MERCHANT_COMPETE_PERCENT_OWNED_BASE_
@@ -774,8 +774,8 @@ NMilitary = {
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
-	INFANTRY_COST = 18.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 26.0, 							-- _MDEF_CAVALRY_COST = 10,		
+	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
+	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 1.5,							-- base fort cost
 	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
@@ -1403,7 +1403,7 @@ NReligion = {
 	RELIGIOUS_LEAGUE_COOLDOWN = 5,								-- Minimum years between joining/leaving religious league
 	RELIGIOUS_LEAGUE_WAR_BONUS_DURATION = 100,					-- How many years the 'Joined League War' bonus lasts
 	MAX_CHRISTIAN_RELIGIOUS_CENTERS = 3,						-- The number of spawned centers of reformation wont exceed this number
-	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 150.0,				-- When spreading the religion to other provinces the distance wont exceed this number
+	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 100.0,				-- When spreading the religion to other provinces the distance wont exceed this number
 	MONTHLY_CONVERSION_SPEED = 5.0,								-- How many percent the conversions of centers of reformation will tick each month.
 	CONVERSION_ZEAL_DURATION = 10950,							-- Amount of days in which you cannot convert the province back.
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
@@ -1460,7 +1460,7 @@ NNationDesigner = {
 	MEMBER_OF_HRE_COST = 20,				-- Cost for being part of the HRE (base)
 	MEMBER_OF_HRE_PROVINCE_COST = 0.2,		-- Cost for being part of the HRE (extra cost multiplier on provinces)
 	TECH_GROUP_NO_NEIGHBOUR_COST = 20,		-- If no neighbour of this tech group, cost is increased by this amount
-	IDEAS_PERCENTAGE_LIMIT = 50,			-- Max % from any one category to not get overstacking penalty
+	IDEAS_PERCENTAGE_LIMIT = 40,			-- Max % from any one category to not get overstacking penalty
 	IDEAS_LIMIT_PENALTY = 5,				-- All ideas are this much more expensive for overstacking (at 100% stacking)
 	IDEAS_LEVEL_COST_1 = 0,					-- Can be overriden in script
 	IDEAS_LEVEL_COST_2 = 5,

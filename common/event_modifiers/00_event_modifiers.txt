@@ -882,7 +882,7 @@ long_term_boost = {
 
 decreased_military_funding = {
 	land_morale = -0.10
-	discipline = -0.05
+	discipline = -0.025
 	global_manpower_modifier = -0.05
 }
 
@@ -1211,7 +1211,7 @@ sunday_schools = {
 }
 
 bad_discipline = {
-	discipline = -0.05
+	discipline = -0.025
 }
 
 good_discipline = {
@@ -1643,11 +1643,11 @@ naval_modifier = {
 
 quality_modifier = {
 	discipline = 0.025
-	global_manpower_modifier = -0.1
+	global_manpower_modifier = -0.25
 }
 
 quantity_modifier = {
-	discipline = -0.05
+	discipline = -0.025
 	global_manpower_modifier = 0.25
 }
 
@@ -2778,7 +2778,7 @@ increased_janissary_recruitment = {
 	global_manpower_modifier = 0.25
 	manpower_recovery_speed = 0.25
 	infantry_power = -0.1
-	discipline = -0.05
+	discipline = -0.025
 }
 
 janissary_landholders = {
@@ -2792,7 +2792,7 @@ janissaries_upset = {
 tur_janissary = {
 	manpower_recovery_speed = 0.15
 	infantry_power = 0.10
-	discipline = 0.05
+	discipline = 0.035
 }
 
 
@@ -5028,7 +5028,7 @@ act_of_seclusion = {
 }
 
 distrust_among_nobles = {
-	discipline = -0.05
+	discipline = -0.025
 }
 
 orangists_rally_against_rival = {
@@ -5988,7 +5988,7 @@ pap_swiss_guard = {
 }
 mil_vatican_library = { 
 	technology_cost = -0.05
-	discipline = 0.05
+	discipline = 0.035
 }
 dip_vatican_library = { 
 	technology_cost = -0.05

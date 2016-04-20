@@ -48,7 +48,7 @@ estate_cossacks =
 		cavalry_power = 0.1
 	}
 	country_modifier_neutral = {
-		cavalry_power = 0.2
+		cavalry_power = 0.1
 	}	
 	country_modifier_angry = {
 		cavalry_cost = 0.2

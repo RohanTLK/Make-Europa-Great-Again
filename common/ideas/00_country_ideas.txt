@@ -419,7 +419,7 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	goose_step = {
-		infantry_power = 0.125
+		infantry_power = 0.15
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.175

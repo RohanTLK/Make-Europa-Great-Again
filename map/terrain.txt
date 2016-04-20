@@ -305,7 +305,6 @@ categories =  {
 		supply_limit = 8
 		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 1
-		local_development_cost = -0.15
 		
 		terrain_override = {
 			2666 # North America

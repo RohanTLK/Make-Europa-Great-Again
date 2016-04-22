@@ -16,8 +16,8 @@ the_statute_of_monopolies = {
 		full_idea_group = economic_ideas
 	}
 
-	production_efficiency = 0.1
-	trade_efficiency = 0.1
+	production_efficiency = 0.05
+	trade_efficiency = 0.05
 
 
 	ai_will_do = {
@@ -90,7 +90,7 @@ convoy_system = {
 		full_idea_group = offensive_ideas
 	}
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.05
 	ship_durability = 0.05
 	
 	ai_will_do = {
@@ -182,7 +182,7 @@ the_importation_act = {
 		full_idea_group = administrative_ideas
 	}
 	
-	trade_efficiency = 0.20
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -411,7 +411,7 @@ the_banking_system = {
 	}
 
 	interest = -1
-	trade_efficiency = 0.1
+	trade_efficiency = 0.05
 
 
 	ai_will_do = {
@@ -543,7 +543,7 @@ naval_secrecy_act = {
 	}
 
 	global_spy_defence = 0.2
-	naval_morale = 0.1
+	naval_morale = 0.05
 
 	ai_will_do = {
 		factor = 1
@@ -596,7 +596,7 @@ cloth_quality_edict = {
 		full_idea_group = trade_ideas
 		full_idea_group = quality_ideas
 	}
-	trade_efficiency = 0.2
+	trade_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -644,7 +644,7 @@ encouragement_of_merchant_navy = {
 		full_idea_group = expansion_ideas
 	}
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.05
 	trade_steering = 0.2
  
 
@@ -881,7 +881,7 @@ chaplains_of_the_fleet = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.1
+	naval_morale = 0.05
 	recover_navy_morale_speed = 0.05
 	
 	ai_will_do = {
@@ -1152,7 +1152,7 @@ fortified_trading_posts = {
 	}	
 	
 	global_foreign_trade_power = 0.15
-	trade_efficiency = 0.1
+	trade_efficiency = 0.05
 	
 	ai_will_do = {
 		factor = 1

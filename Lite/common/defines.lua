@@ -778,7 +778,7 @@ NMilitary = {
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 1.5,							-- base fort cost
-	HEAVY_SHIP_COST = 75, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
+	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,		
 	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,		

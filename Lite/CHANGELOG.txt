@@ -1,0 +1,49 @@
+COMBAT:
+*Land Attrition cap raised to 20% max and Naval Attrition 10% max
+*Supply limit base decreased from 6x to 4.5x the province's base supply limit
+*Morale Threshold for an army to shatter decreased to 10% of the unit's morale, meaning you can pull an army back with 11% morale and it won't shatter.
+*Artillery costs 40 ducats to make (this also means a natural raise to maint cost of arty)
+*Base manpower regen increased to 50%
+*Base Mercenaries is 42, you do not get mercenaries from forcelimit. +Available Mercenary modifiers still affect the base of 42 (e.g. Burg's NI of +25% Mercs would give them a total of 52 mercs).
+*Early game combat width is reduced by 5 but you get this back swiftly in future military techs.
+*Scorched Earth is devastating to armies and the province itself. You can use this tactically now.
+
+ECONOMY:
+*Land Maint Per Tech is increased to 0.03, from 0.01. This means your armies will cost more late-game so you gotta prep dat economy.
+*Courthouse gives +1 tax, Townhall gives +2 tax
+*Marketplace tree gives added +20% Trade Value, Stock Exchanges give +1 trade value
+*Forts have been reduced to levels 1, 2, 3 & 4 respectively, fort maint has been tripled.
+*Forts give a pretty large supply limit bonus of; 40%, 60%, 80% & 100% for each level.
+*Forts give -1 through -4 province unrest for each level.
+*The interest on loans is 2% higher. It doesn't sound like much but it's enough to make loans scarier.
+
+MISC:
+*All western's get a colonist and colonial range decision when they hit dip 11. If you take exploration you don't get the decision.
+*The Netherlands formation decision doesn't cede all provinces to France
+*The states bonus given from tech has been nerfed from Vanilla but is quite high in the late-game techs. Check this one ingame for exact amounts
+*You can declare war whilst in a regency
+*Idea group limit is set to 40%, basically it means you can't have more than 40% of one idea group category at any given time.
+*You can create Client States in overseas regions
+*Colonial Nations will auto-form when you have 11 provinces in the colonial region, instead of 4.
+
+POLICIES:
+First of all, I reverted policies to their vanilla state.
+Then, I added that Policies can be retracted after 5 years instead of 10.
+Then, I made a few SLIGHT adjustments
+* Halved TE and PE bonuses from any policies that gave them. The 'free money' modifiers were way too monarch point efficient when stacked.
+* Military Zeal Act (Religious + Quality) gives Morale Recovery +15% instead of +10% Morale. Coz priests rouse up the troops or something.
+* Halved Naval Morale bonuses in all policies. Coz fighting on the ocean is actually not fun at all no matter how much your captain tells you it is.
+* Field Priests (Religious + Quantity) reduced to +5% Morale. Coz your priests might be good at riling up the troops, but they're not THAT good.
+* Quality Standards (Economic + Quality) gives Land Attrition -10% instead of 5% discipline. Coz your troops are well paid and bring food with them or something.
+
+REVERSIONS FROM Op MEGA:
+*Completely reverted the idea group and national idea changes from Op MEGA. EXCEPT for Exploration which gets an extra colonist in its finisher due to not receiving the free colonist from the free colonist decision.
+*Completely reverted religion changes... I think
+*Completely reverted government changes
+*Completely reverted development changes
+*Completely reverted estates changes
+*Completely reverted HRE changes
+*Completely reverted event/modifier nerfs to combat bonuses
+
+POSSIBLE CHANGES:
+*Reduce PE and TE bonuses from tech to 2.5% each to increase the impact of hunting these bonuses from external sources.

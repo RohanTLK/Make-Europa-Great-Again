@@ -24,7 +24,7 @@ marketplace = {
 	
 	modifier = {
 		province_trade_power_modifier = 0.5
-		trade_value_modifier = 0.3
+		trade_value_modifier = 0.2
 	}
 	
 	ai_will_do = {
@@ -187,8 +187,8 @@ fort_15th = {
 	time = 30
 	modifier = {
 		fort_level = 1
-		supply_limit_modifier = 0.30
-		local_unrest = -2
+		supply_limit_modifier = 0.40
+		local_unrest = -1
 	}
 	
 	onmap = yes
@@ -238,7 +238,7 @@ courthouse = {
 	cost = 200
 	time = 12
 	modifier = {
-		local_unrest = -3
+		local_unrest = -2
 		local_autonomy = -0.02
 		tax_income = 1
 	}
@@ -321,8 +321,8 @@ fort_16th = {
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 2
-		supply_limit_modifier = 0.5
-		local_unrest = -4
+		supply_limit_modifier = 0.6
+		local_unrest = -2
 	}
 
 	onmap = yes
@@ -454,8 +454,8 @@ trade_depot = {
 	make_obsolete = marketplace
 	
 	modifier = {
-		province_trade_power_modifier = 1
-		trade_value_modifier = 0.6
+		province_trade_power_modifier = 1.25
+		trade_value_modifier = 0.2
 	}
 	
 	ai_will_do = {
@@ -555,8 +555,8 @@ fort_17th = {
 	
 	modifier = {
 		fort_level = 3
-		supply_limit_modifier = 0.70
-		local_unrest = -2
+		supply_limit_modifier = 0.80
+		local_unrest = -3
 	}
 
 	onmap = yes
@@ -609,8 +609,8 @@ stock_exchange = {
 	
 	modifier = {
 		province_trade_power_modifier = 1.25
-		trade_value_modifier = 0.6
-		trade_value = 1
+		trade_value_modifier = 0.2
+		trade_value = 0.5
 	}
 	
 	ai_will_do = {
@@ -680,8 +680,8 @@ town_hall = {
 	make_obsolete = courthouse
 	
 	modifier = {
-		local_unrest = -5
-		local_autonomy = -0.05
+		local_unrest = -4
+		local_autonomy = -0.04
 		tax_income = 2
 	}
 	
@@ -780,8 +780,8 @@ fort_18th = {
 	
 	modifier = {
 		fort_level = 4
-		supply_limit_modifier = 0.90
-		local_unrest = -2
+		supply_limit_modifier = 1.00
+		local_unrest = -4
 	}
 
 	onmap = yes

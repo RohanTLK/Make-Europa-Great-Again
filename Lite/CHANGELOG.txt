@@ -10,7 +10,7 @@ COMBAT:
 
 ECONOMY:
 *Land Maint Per Tech is increased to 0.03, from 0.01. This means your armies will cost more late-game so you gotta prep dat economy.
-*Courthouse gives +1 tax, Townhall gives +2 tax
+*Courthouse gives +1 tax -2 unrest -0.02 autonomy, Townhall gives +2 tax -4 unrest -0.04 autonomy
 *Marketplace tree gives added +20% Trade Value, Stock Exchanges give +1 trade value
 *Forts have been reduced to levels 1, 2, 3 & 4 respectively, fort maint has been tripled.
 *Forts give a pretty large supply limit bonus of; 40%, 60%, 80% & 100% for each level.

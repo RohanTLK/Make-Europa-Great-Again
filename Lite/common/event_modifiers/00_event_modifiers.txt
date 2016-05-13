@@ -6652,6 +6652,9 @@ tengri_local_plight = {
 
 tengri_shamans_spurned = {
 	horde_unity = -0.25
+	legitimacy = -0.25
+	republican_tradition = -0.0012
+	devotion = -0.25
 }
 
 tengri_religious_influx = {
@@ -6664,7 +6667,7 @@ tengri_ibadi_scholars = {
 	legitimacy = 0.5
 	devotion = 0.5
 	horde_unity = 0.5
-	republican_tradition = 0.05
+	republican_tradition = 0.005
 }
 
 tengri_sufi_teacher = {
@@ -6989,6 +6992,10 @@ succesful_bid_for_imperial_crown = {
 baltic_ambition = {
 	trade_efficiency = 0.1
 }
+
+russian_ambition_modifier = {
+	global_autonomy = -0.05
+}		
 
 mediterranean_ambition = {
 	trade_efficiency = 0.15

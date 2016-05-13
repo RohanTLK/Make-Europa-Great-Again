@@ -13,6 +13,7 @@ technology = {
 	
 	naval_morale			=	2.0
 	range					=	60
+	may_fabricate_claims = yes
 
 }
 
@@ -34,6 +35,7 @@ technology = {
 	trade_range				=	100
 	enable = cog
 	enable = galley
+
 }
 
 # The 30 big techs from here on
@@ -49,6 +51,7 @@ technology = {
 	global_colonial_growth	= 	15
 	
 	enable = early_carrack
+
 
 }
 
@@ -75,6 +78,7 @@ technology = {
 	year = 1479
 	
 	shipyard = yes
+	may_steal_maps = yes
 
 }
 
@@ -107,6 +111,7 @@ technology = {
 	
 	enable = carrack
 	enable = caravel
+	may_study_technology = yes
 	
 }
 
@@ -135,6 +140,8 @@ technology = {
 	# Tech 12
 	year = 1557
 	naval_morale			=	0.4
+	may_slander_merchants = yes
+
 	
 }
 
@@ -167,6 +174,8 @@ technology = {
 	
 	enable = galleon
 	enable = early_frigate
+	may_sabotage_recruitment = yes
+
 }
 
 technology = {
@@ -198,6 +207,8 @@ technology = {
 	
 	enable = galiot
 	naval_morale			=	0.5
+	may_sow_discontent = yes
+
 	
 }
 
@@ -230,6 +241,8 @@ technology = {
 	
 
 	enable = chebeck
+	may_sabotage_reputation = yes
+
 }
 
 technology = {
@@ -270,6 +283,8 @@ technology = {
 	trade_efficiency 		= 	0.05
 	trade_range				=	20
 	enable = archipelago_frigate
+	may_corrupt_officials = yes
+
 }
 
 technology = {
@@ -299,6 +314,8 @@ technology = {
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
+	may_agitate_for_liberty = yes
+
 }
 
 technology = {
@@ -323,6 +340,7 @@ technology = {
 	
 	trade_efficiency 		= 	0.05
 	trade_range				=	20
+	may_infiltrate_administration = yes
 }
 
 technology = {

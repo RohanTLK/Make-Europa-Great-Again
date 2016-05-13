@@ -190,40 +190,45 @@ spy_ideas = {
 
 	bonus = {
 		rebel_support_efficiency = 0.50
-		may_steal_maps = yes
+	}
+
+	efficient_spies = {
+		spy_offence = 0.5
+		advisor_cost = -0.10
+	}	
+	
+	
+	agent_training = {
+		diplomats = 1		
 	}
 
 	vetting = {
 		global_spy_defence = 0.33
-		may_study_technology = yes
+		global_prov_trade_power_modifier = 0.10
 	}	
-	efficient_spies = {
-		spy_offence = 0.5
-		diplomats = 1
-	}		
+	
+	additional_loyalist_recruitment = {
+		reduced_liberty_desire = -10
+	}
+
+	
+	claim_fabrication = {
+		fabricate_claims_cost = -0.25
+	}
+
+	
+	
 	privateers = {
 		embargo_efficiency = 0.25
 		privateer_efficiency = 0.33
 	}
-	rumourmongering = {
-		may_sabotage_reputation = yes
-		may_slander_merchants = yes
-	}
-	shady_recruitment = {
-		discovered_relations_impact = -0.33
-		may_sabotage_recruitment = yes
-	}
-	destabilising_efforts = {
-		may_sow_discontent = yes
-		may_agitate_for_liberty = yes
-	}
-	espionage  = {
-		may_infiltrate_administration = yes
-		may_corrupt_officials = yes
+	audit_checks = {
+		yearly_corruption = -0.1
 	}
 
+
 	ai_will_do = {
-		factor = 0.1
+		factor = 0.75
 	}
 }
 
@@ -767,7 +772,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		max_states = 3
+		max_states = 5
 	}
 
 	organised_mercenary_payment = {
@@ -849,8 +854,10 @@ influence_ideas = {
 	tribute_system = {
 		vassal_income = 0.25
 	}
-	claim_fabrication = {
-		fabricate_claims_cost = -0.25
+	
+	establish_cadet_branches = {
+		heir_chance = 0.25
+		prestige = 0.5
 	}
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25

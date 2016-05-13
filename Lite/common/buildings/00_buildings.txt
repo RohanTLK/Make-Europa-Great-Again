@@ -31,7 +31,9 @@ marketplace = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -57,7 +59,9 @@ workshop = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -93,7 +97,9 @@ temple = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -159,13 +165,16 @@ shipyard = {
 	modifier = {
 		naval_forcelimit = 2
 		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
 	}
 	
 	ai_will_do = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -247,7 +256,9 @@ courthouse = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -278,7 +289,9 @@ dock = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -382,7 +395,9 @@ cathedral = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -420,7 +435,9 @@ university = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -462,7 +479,9 @@ trade_depot = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -487,13 +506,16 @@ grand_shipyard = {
 	modifier = {
 		naval_forcelimit = 4
 		ship_recruit_speed = -0.50
+		local_ship_repair = 0.50
 	}
 	
 	ai_will_do = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -617,7 +639,9 @@ stock_exchange = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}	
 		modifier = {
 			factor = 0.1
@@ -645,7 +669,9 @@ counting_house = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -689,7 +715,9 @@ town_hall = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -728,7 +756,9 @@ drydock = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -845,7 +875,9 @@ wharf = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -886,7 +918,9 @@ weapons = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -929,7 +963,9 @@ textile = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -976,7 +1012,9 @@ plantations = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1023,7 +1061,9 @@ tradecompany = {
 		factor = 100
 		modifier = {
 			factor = 0
-			is_at_war = yes
+			owner = {
+				is_at_war = yes
+			}
 		}
 		modifier = {
 			factor = 0

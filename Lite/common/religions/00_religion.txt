@@ -47,8 +47,7 @@ christian = {
 			}			
 		
 		}
-		
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
 		
 		papacy = {
@@ -274,10 +273,20 @@ christian = {
 				is_in_capital_area = yes
 				is_reformation_center = no
 				is_island = no
-				development = 10
+				OR = {
+					has_province_flag = start_of_protestant_reformation
+					development = 10
+				}
 				NOT = {
 					any_neighbor_province = {
 						is_reformation_center = yes
+					}
+				}
+				NOT = {
+					any_province = {
+						area = PREV
+						is_reformation_center = yes
+						religion = protestant
 					}
 				}
 				NOT = { has_climate = arctic }
@@ -305,6 +314,15 @@ christian = {
 			if = {
 				limit = {
 					has_country_flag = reformation_money
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = protestant
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				hidden_effect = {
 					random_owned_province = {
@@ -321,6 +339,13 @@ christian = {
 							NOT = {
 								any_neighbor_province = {
 									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									is_reformation_center = yes
+									religion = protestant
 								}
 							}
 							not = { province_id = 118 }
@@ -342,6 +367,15 @@ christian = {
 			if = {
 				limit = {
 					NOT = { has_country_flag = reformation_money }
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = protestant
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				add_years_of_income = 1.0
 				hidden_effect = {
@@ -359,6 +393,13 @@ christian = {
 							is_island = no
 							NOT = {
 								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = protestant
 									is_reformation_center = yes
 								}
 							}
@@ -396,7 +437,7 @@ christian = {
 				}
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 		
 		date = 1517.10.31
@@ -432,10 +473,20 @@ christian = {
 				not = { province_id = 118 }
 				is_in_capital_area = yes
 				is_reformation_center = no
-				development = 10
+				OR = {
+					has_province_flag = start_of_reformed_reformation
+					development = 10
+				}
 				is_island = no
 				NOT = {
 					any_neighbor_province = {
+						is_reformation_center = yes
+					}
+				}
+				NOT = {
+					any_province = {
+						area = PREV
+						religion = reformed
 						is_reformation_center = yes
 					}
 				}
@@ -464,6 +515,15 @@ christian = {
 			if = {
 				limit = {
 					has_country_flag = reformation_money
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = reformed
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				hidden_effect = {
 					random_owned_province = {
@@ -480,6 +540,13 @@ christian = {
 							development = 10
 							NOT = {
 								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = reformed
 									is_reformation_center = yes
 								}
 							}
@@ -501,6 +568,15 @@ christian = {
 			if = {
 				limit = {
 					NOT = { has_country_flag = reformation_money }
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = reformed
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				add_years_of_income = 1.0
 				hidden_effect = {
@@ -518,6 +594,13 @@ christian = {
 							development = 10
 							NOT = {
 								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = reformed
 									is_reformation_center = yes
 								}
 							}
@@ -554,7 +637,7 @@ christian = {
 				}
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { METHODIST BAPTIST QUAKER }
 		
 		date = 1536.5.1
@@ -577,7 +660,7 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 		
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
 		has_patriarchs = yes		# Uses patriarch authority
@@ -603,7 +686,7 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
 		
 		misguided_heretic = yes		# Other christians hate them less (?)
@@ -634,7 +717,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -654,7 +737,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { DRUZE HURUFI ZAIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -674,7 +757,7 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		declare_war_in_regency = yes
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
 		
 		uses_piety = yes				# Uses piety mechanics
@@ -711,7 +794,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -740,7 +823,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -769,7 +852,7 @@ eastern = {
 				duration = 3650
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { ZEN }
 		
 		uses_karma = yes
@@ -786,8 +869,8 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
-		declare_war_in_regency = yes
 		heretic = { TAOIST }
+		declare_war_in_regency = yes
 	}
 
 	shinto = {
@@ -803,8 +886,8 @@ eastern = {
 			discipline = 0.05
 			global_unrest = -1
 		}
-		declare_war_in_regency = yes
 		heretic = { SHUGENDO }
+		declare_war_in_regency = yes
 	}
 	
 	crusade_name = CRUSADE
@@ -841,7 +924,7 @@ dharmic = {
 				duration = 3650
 			}
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { BHAKTI }
 	}
 
@@ -900,7 +983,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { SNAKE_CLAN }
 	}
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
@@ -934,7 +1017,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { BEAR_SPIRIT }	
 	}
 	
@@ -958,7 +1041,7 @@ pagan = {
 		authority = yes
 		religious_reforms = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { INTI_HERETIC }	
 	}
 	
@@ -981,7 +1064,6 @@ pagan = {
 		declare_war_in_regency = yes
 		religious_reforms = yes
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
-		declare_war_in_regency = yes		
 		heretic = { NAHUATL_HERETIC }	
 	}
 	
@@ -1003,7 +1085,7 @@ pagan = {
 		
 		religious_reforms = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { MESOAMERICAN_HERETIC }	
 	}
 	
@@ -1023,7 +1105,7 @@ pagan = {
 		}
 		
 		personal_deity = yes
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { OLD_NORSE }	
 	}
 	
@@ -1061,7 +1143,7 @@ jewish_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { SAMARITAN KARAITE }
 	}
 	
@@ -1086,7 +1168,7 @@ zoroastrian_group = {
 			merchants = 1
 			tolerance_own = 1
 		}
-		declare_war_in_regency = yes		
+		declare_war_in_regency = yes
 		heretic = { MAZDAKI MANICHEAN }	
 	}
 	

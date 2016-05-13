@@ -3,7 +3,11 @@ NDefines = {
 NGame = {
 	START_DATE = "1444.11.11",
 	END_DATE = "1821.1.2",
-	MAX_RANDOM_NEW_WORLD = "1492.1.1"
+	MAX_RANDOM_NEW_WORLD = "1492.1.1",
+	MAX_DYNAMIC_COUNTRIES = 75,						-- Max is 100
+	MAX_DYNAMIC_CLIENT_COUNTRIES = 75,				-- Max is 100
+	MAX_NUM_OBSERVERS = 10,							-- Max is 100
+	MAX_CUSTOM_COUNTRIES = 75,						-- Max is 100
 },
 
 NDiplomacy = {
@@ -86,7 +90,7 @@ NDiplomacy = {
 	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
 	COALITION_YEARS = 20,							-- Years before coalition expire
 	GUARANTEE_YEARS = 20,							-- Years before guarantee expire
-	REVANCHISM_MONTHLY_DECAY = 0.5,			-- about 20 years to decay all of it.
+	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
 	MONARCH_GOV_CHANGE_LEGITIMACY_PENALTY = 0.0,	-- Penalty(%) on the legitimacy when changing gov type to the monarchy
 	BASE_SPY_DISCOVERY_CHANCE = 0.25,
 	JUSTIFY_TRADE_CONFLICT_LIMIT = 0.2,			-- How big share of the trade power needed on the target to be able to justify a trade conflict
@@ -104,7 +108,8 @@ NDiplomacy = {
 	DETECTED_SPY_NETWORK_DAMAGE_MAX = 30,
 	SUPPORT_REBELS_EFFECT = 10,
 	SUPPORT_REBELS_MONEY_FACTOR = 0.5,
-	FABRICATE_CLAIM_COST = 10,
+	FABRICATE_CLAIM_COST = 20,
+	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.25, 
 	JUSTIFY_TRADE_CONFLICT_COST = 10,
 	INFILTRATE_ADMINISTRATION_COST = 40,
 	SABOTAGE_REPUTATION_COST = 60,
@@ -208,7 +213,7 @@ NDiplomacy = {
 
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
 	PO_HUMILIATE_PRESTIGE_HIT = 20,						
-	PO_HUMILIATE_POWER_GAIN = 20,
+	PO_HUMILIATE_POWER_GAIN = 100,
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
 	
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
@@ -252,7 +257,7 @@ NDiplomacy = {
 	MAX_NUMBER_OF_CB_ITEMS = 15,					-- Max number of country shields to display in Diplomacy View for CB
 	CB_ITEM_COUNTRY_SCORE_LIMIT = 20,				-- Any country below the score limit is relevant in the CB list in Diplomacy View
 	
-	SPY_DISCOVERY_COOLDOWN_MONTHS = 60,				-- Can't make another spy action against a certain country within this many months of failing with another one.
+	SPY_DISCOVERY_COOLDOWN_MONTHS = 3,				-- Can't make another spy action against a certain country within this many months of failing with another one.
 	DIPLOANNEX_LIBERTY_THRESHOLD = 50,				-- If a vassal has >= this much liberty desire, there will be zero diploannexation progress.
 	REMOVE_ELECTORATE_INFLUENCE_COST = 10,			-- The amount of IA Remove Electorate costs.
 	GRANT_ELECTORATE_INFLUENCE = 0,					-- The amount of AI Grant Electorate gives.
@@ -275,7 +280,7 @@ NDiplomacy = {
 NCountry = {
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
-	STATE_MAINTENANCE_DEV_FACTOR = 0.01,		-- per dev
+	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001,	-- distance 
 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
@@ -508,6 +513,7 @@ NCountry = {
 	LAGGINGTECH_CORRUPTION_MAX = 0.5,				-- Max increase/year
 	POPULATION_GROWTH = 0.03, 						-- _CDEF_POPULATION_GROWTH_; Base population growth.
 	COLONIAL_GROWTH_PENALTY = 100, 					-- growth penalty for low colonial maintenance
+	MAX_NATIONALISM = 10,
 	YEARS_OF_NATIONALISM = 30, 						-- _CDEF_YEARS_OF_NATIONALISM_; Years of Nationalism
 	YEARS_UNTIL_BROKEN = 2, 						-- _CDEF_YEARS_UNTIL_BROKEN_; Years until rebel held capital results in broken country.
 	BASE_HEIR_BIRTH = 120, 							-- _CDEF_BASE_HEIR_BIRTH_
@@ -579,7 +585,7 @@ NCountry = {
 	LARGE_VASSAL_LIMIT = 100,						-- Above what development is a vassal considered a large vassal
 	GREAT_POWER_VASSAL_LIMIT = 300, 				-- Above what development is a vassal considered a great power vassal
 	
-	MAX_CROWN_COLONIES = 11,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 10,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	PROTECTORATE_TECH_THRESHOLD = 0.5,				-- Difference in tech group cost modifiers
 	PROTECTORATE_LOWER_BOUND = 0.5,					-- Lower limit for protectorates
@@ -779,7 +785,7 @@ NMilitary = {
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 1.5,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
-	LIGHT_SHIP_COST = 35, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
+	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,		
 	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,		
 	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,		
@@ -871,6 +877,19 @@ NMilitary = {
 },
 
 NAI = {
+	POWERBALANCE_DISABLE_VERSUS_AI = 0, --If set to 1, AI will never pick another AI nation as a powerbalance threat.
+	POWERBALANCE_DISABLE_VERSUS_PLAYER = 1, --If set to 1, AI will never (directly) pick a human player nation as a powerbalance threat.
+	DIPLOMATIC_ACTION_ALLIANCE_POWERBALANCE_FACTOR = 50, --AI scoring for alliance action is increased by this if a nation blocks a powerbalance threat.
+	DIPLOMATIC_ACTION_GUARANTEE_POWERBALANCE_FACTOR = 80, --AI scoring for guarantee action is increased by this if a nation blocks a powerbalance threat.
+	DIPLOMATIC_ACTION_GIFT_POWERBALANCE_FACTOR_AI = 100, --AI willingness to send gifts to AI nations fighting power balance threat is modulated by this.
+	DIPLOMATIC_ACTION_GIFT_POWERBALANCE_FACTOR_PLAYER = 75, --AI willingness to send gifts to human nations fighting power balance threat is modulated by this.
+	DIPLOMATIC_ACTION_SUBSIDIES_POWERBALANCE_FACTOR = 40, --AI scoring to give subsidies to nations blocking/fighting power balance threat.
+	DIPLOMATIC_ACTION_CRUSADE_POWERBALANCE_FACTOR = 40, --AI scoring for calling crusade on power balance threat.
+	DIPLOMATIC_ACTION_EXCOMMUNICATE_POWERBALANCE_FACTOR = 40, --AI scoring for excommunicating power balance threat.
+	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_ONLY_MILITARY_RULERS = 1, --If set to 1, AI will only send Condottieri while having a miliaristic ruler.
+	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_ONLY_NEIGHBORS = 1, --If set to 1, AI will only send Condottieri to neighbors, regardless of access.
+	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_DISABLE_VERSUS_PLAYER_ENEMIES = 0, --If set to 1, AI will try avoid sending Condottieri having to fight against human player enemies.
+	ONLY_INFANTRY_MERCS = 1, --Set to 0 to let AI hire artillery and cavalry mercenaries.
 	FORT_MAINTENANCE_CHEAT = 1, -- Set to 0 to disable AI fort maintenance cheating. Warning: Will make AI suck.
 	AI_USES_HISTORICAL_IDEA_GROUPS = 0, -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)
 	AI_CONVERT_CULTURES = 1, -- If set to 0, AI will not convert cultures
